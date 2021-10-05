@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c98d1e40b7cb514a89e4a1d4227d3ea, type: 3}
+  m_Name: Verdant
+  m_EditorClassIdentifier: 
+  characterName: Verdant
+  characterModel: {fileID: 6247436613304499994, guid: 3c93159208bb72343b8256c5986218c5,
+    type: 3}
+  startingLevel: 1
+  HP: 0
+  Str: 12
+  Mag: 8
+  Skill: 5
+  Spd: 9
+  Luck: 4
+  Def: 9
+  Res: 6
+  Weight: 7
+  Mov: 15
+  HP_Growth: 45
+  Str_Growth: 60
+  Mag_Growth: 30
+  Skill_Growth: 50
+  Spd_Growth: 65
+  Def_Growth: 40
+  Res_Growth: 35

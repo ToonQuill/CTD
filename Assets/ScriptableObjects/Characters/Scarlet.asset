@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c98d1e40b7cb514a89e4a1d4227d3ea, type: 3}
+  m_Name: Scarlet
+  m_EditorClassIdentifier: 
+  characterName: Debug3
+  characterModel: {fileID: 6247436613304499994, guid: a1476946dc640cf4aac2be55f819b030,
+    type: 3}
+  startingLevel: 1
+  HP: 0
+  Str: 0
+  Mag: 0
+  Skill: 0
+  Spd: 0
+  Luck: 0
+  Def: 0
+  Res: 0
+  Weight: 0
+  Mov: 3
+  HP_Growth: 0
+  Str_Growth: 0
+  Mag_Growth: 0
+  Skill_Growth: 0
+  Spd_Growth: 0
+  Def_Growth: 0
+  Res_Growth: 0

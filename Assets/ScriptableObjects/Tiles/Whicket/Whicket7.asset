@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc4a087e4d3ffd468a31125c064d29e, type: 3}
+  m_Name: Whicket7
+  m_EditorClassIdentifier: 
+  tileName: Whicket7
+  tileMaterial: {fileID: 2100000, guid: 537a370f332d9de4785d3518588bdad2, type: 2}
+  invisible: 0
+  infantryCanWalk: 1
+  armoredCanWalk: 1
+  cavalryCanWalk: 1
+  flyingCanWalk: 1
+  avoidModifier: 0
+  defModifier: 0
+  resModifier: 0
+  movementModifier: 2
+  healModifier: 0
