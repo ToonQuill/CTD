@@ -14,13 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileName: Air
   tileMaterial: {fileID: 2100000, guid: 6aa68db408383f24da880bcecff8b97f, type: 2}
-  invisible: 1
-  infantryCanWalk: 0
-  armoredCanWalk: 0
-  cavalryCanWalk: 0
-  flyingCanWalk: 1
-  avoidModifier: 0
-  defModifier: 0
-  resModifier: 0
-  movementModifier: 100
-  healModifier: 0
+  Passable: 0
+  Invisible: 1
+  Switch: 0

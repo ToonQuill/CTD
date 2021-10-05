@@ -14,13 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileName: Water
   tileMaterial: {fileID: 2100000, guid: 08f859c59b216544bb16f7c9d3802b67, type: 2}
-  invisible: 0
-  infantryCanWalk: 0
-  armoredCanWalk: 0
-  cavalryCanWalk: 0
-  flyingCanWalk: 1
-  avoidModifier: 0
-  defModifier: 0
-  resModifier: 0
-  movementModifier: 100
-  healModifier: 0
+  Passable: 0
+  Invisible: 0
+  Switch: 0
