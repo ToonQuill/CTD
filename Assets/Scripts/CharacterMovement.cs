@@ -6,12 +6,16 @@ public class CharacterMovement : MonoBehaviour
 {
 
     public GameObject player;
-    private GameObject currentTileLocation;
-    private int newXCoordinate;
-    private int newYCoordinate;
+    private GameObject currentLocation, newLocation;
+    private Vector3 newLocationVector;
 
     private bool playerPlaced = false;
-    private Vector2 playerLocation;
+    private bool playerIsMoving = false;
+
+    public Vector2 playerLocation;
+    public Vector2 playerLocationGoing;
+
+    private float movementBuffer = 0f;
 
     private CreateGrid grid;
     private IndividualTileManager iTM;
@@ -24,13 +28,13 @@ public class CharacterMovement : MonoBehaviour
     {
         player = Instantiate(player);
         playerLocation = new Vector2(grid.gridWidth / 2, grid.gridDepth / 2);
-        newXCoordinate = grid.gridWidth / 2;
-        newYCoordinate = grid.gridDepth / 2;
+        playerLocationGoing = playerLocation;
         for (int i = 0; i < grid.gridSize; i++)
         {
             if (grid.tileData.storedCoordinates[i] == playerLocation)
             {
                 Vector3 spawnLocation = grid.tileData.storedGameObjects[i].transform.position;
+                currentLocation = grid.tileData.storedGameObjects[i];
                 player.transform.position = new Vector3(spawnLocation.x, spawnLocation.y + 5f, spawnLocation.z);
             }
         }
@@ -44,71 +48,103 @@ public class CharacterMovement : MonoBehaviour
         {
             initPlayer();
         }
-        inputManager();
+
+        if (movementBuffer > 0.25)
+        {
+            inputManager();
+        }
+        else
+        {
+            movementBuffer = movementBuffer + Time.deltaTime;
+        }
+
+        if (playerIsMoving)
+        {
+            characterIsMoving();
+        }
     }
 
     private void inputManager()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            newYCoordinate++;
+            playerLocationGoing = new Vector2(playerLocationGoing.x, playerLocationGoing.y + 1);
             updatePlayerCoordinates();
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
-            newYCoordinate--;
+            playerLocationGoing = new Vector2(playerLocationGoing.x, playerLocationGoing.y - 1);
             updatePlayerCoordinates();
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            newXCoordinate--;
+            playerLocationGoing = new Vector2(playerLocationGoing.x - 1, playerLocationGoing.y);
             updatePlayerCoordinates();
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            newXCoordinate++;
+            playerLocationGoing = new Vector2(playerLocationGoing.x + 1, playerLocationGoing.y);
             updatePlayerCoordinates();
         }
     }
     private void updatePlayerCoordinates()
     {
         verifyEligibility();
-        Vector2 tempNewLocation = new Vector2(newXCoordinate, newYCoordinate);
-        if (tempNewLocation != playerLocation)
+        movementBuffer = 0;
+        if (playerLocationGoing != playerLocation)
         {
-            playerLocation = tempNewLocation;
-            moveCharacter();
+            moveCharacter(playerLocationGoing);
         }
     }
 
     private void verifyEligibility()
     {
-        if (newYCoordinate < 0)
+        if (playerLocationGoing.y < 0)
         {
-            newYCoordinate = 0;
+            playerLocationGoing = new Vector2(playerLocationGoing.x, 0);
         }
-        if (newYCoordinate > (grid.gridDepth - 1))
+        if (playerLocationGoing.y > (grid.gridDepth - 1))
         {
-            newYCoordinate = grid.gridDepth - 1;
+            playerLocationGoing = new Vector2(playerLocationGoing.x, grid.gridDepth - 1);
         }
-        if (newXCoordinate < 0)
+        if (playerLocationGoing.x < 0)
         {
-            newXCoordinate = 0;
+            playerLocationGoing = new Vector2(0, playerLocationGoing.y);
         }
-        if (newXCoordinate > (grid.gridWidth - 1))
+        if (playerLocationGoing.x > (grid.gridWidth - 1))
         {
-            newXCoordinate = grid.gridWidth - 1;
+            playerLocationGoing = new Vector2(grid.gridWidth - 1, playerLocationGoing.y);
+        }
+        for (int i = 0; i < grid.gridSize; i++)
+        {
+            if (grid.tileData.storedCoordinates[i] == playerLocationGoing
+                && !grid.tileData.storedGameObjects[i].GetComponent<IndividualTileManager>().tileData.Passable)
+            {
+                playerLocationGoing = playerLocation;
+            }
         }
     }
-    private void moveCharacter()
+    private void moveCharacter(Vector2 playerLocationGoing)
     {
         for (int i = 0; i < grid.gridSize; i++)
         {
-            if (grid.tileData.storedCoordinates[i] == playerLocation)
+            if (grid.tileData.storedCoordinates[i] == playerLocationGoing)
             {
-                Vector3 spawnLocation = grid.tileData.storedGameObjects[i].transform.position;
-                player.transform.position = new Vector3(spawnLocation.x, spawnLocation.y + 5f, spawnLocation.z);
+                newLocation = grid.tileData.storedGameObjects[i];
+                newLocationVector = new Vector3(newLocation.transform.position.x, newLocation.transform.position.y + 5f,
+                    newLocation.transform.position.z);
+                playerIsMoving = true;
+                playerLocation = playerLocationGoing;
             }
+        }
+    }
+    private void characterIsMoving()
+    {
+        player.transform.position = Vector3.MoveTowards(player.transform.position, newLocationVector, Time.deltaTime * 40f);
+        float distance = Vector3.Distance(player.transform.position, newLocation.transform.position);
+        if (distance < 0.1f)
+        {
+            playerIsMoving = false;
         }
     }
 }

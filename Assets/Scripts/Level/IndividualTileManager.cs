@@ -78,7 +78,7 @@ public class IndividualTileManager : MonoBehaviour
             currentTileData = tileData;
             this.GetComponent<Renderer>().enabled = true;
             this.GetComponent<Renderer>().sharedMaterial = currentTileData.tileMaterial;
-            if (currentTileData.invisible)
+            if (currentTileData.Invisible)
             {
                 this.GetComponent<Renderer>().enabled = false;
             }
