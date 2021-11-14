@@ -17,11 +17,6 @@ public class IndividualTileManager : MonoBehaviour
 
     [HideInInspector] public int xCord, zCord;
 
-    public int temporaryMovementVariable; //temporary value assigned when selecting spaces, used to verify movement modifier funkiness
-    public int temporaryMovementVariableAlt;
-    public int movementVariable;
-    public int temporaryReverseMovementVariable;
-    public int reverseMovementVariable;
     [HideInInspector] public bool tileIsMoveable = false;
     public bool tileIsArrow = false;
     [HideInInspector] public bool moveableTile = false;
@@ -32,9 +27,7 @@ public class IndividualTileManager : MonoBehaviour
 
     private bool foundNeighbours = false;
 
-    public bool testHighlight = false;
-
-    public bool badSpot = false;
+    public Vector2 warpCords = new Vector2(0, 0);
 
     void Start()
     {
@@ -42,11 +35,6 @@ public class IndividualTileManager : MonoBehaviour
         tileColliders = new List<GameObject>();
         defaultTile = this.GetComponentInParent<CreateGrid>().defaultTile;
         currentTileData = this.GetComponentInParent<CreateGrid>().defaultTileData;
-        temporaryMovementVariable = -10;
-        temporaryMovementVariableAlt = -10;
-        movementVariable = -10;
-        reverseMovementVariable = -10;
-        temporaryReverseMovementVariable = -10;
         isOccupied = false;
         for (int i = 0; i < this.transform.childCount; i++)
         {

@@ -372,6 +372,8 @@ GameObject:
   - component: {fileID: 2082123863}
   - component: {fileID: 2082123865}
   - component: {fileID: 2082123866}
+  - component: {fileID: 2082123867}
+  - component: {fileID: 2082123868}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -430,6 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 6247436613304499994, guid: 3c93159208bb72343b8256c5986218c5, type: 3}
+  playerIsMoving: 0
   playerLocation: {x: 0, y: 0}
   playerLocationGoing: {x: 0, y: 0}
 --- !u!114 &2082123866
@@ -444,4 +447,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8afb1b1037fcd834db2285cd6c454993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allTileTypes: []
+  allTileTypes:
+  - {fileID: 11400000, guid: 7de2f2270fd3992469544820616089eb, type: 2}
+  - {fileID: 11400000, guid: 14e784b9480057540bac250e804de490, type: 2}
+  - {fileID: 11400000, guid: 04b680777d8284049bc33e81b5e92070, type: 2}
+  - {fileID: 11400000, guid: 2b344f3cf327341459a4ff48699947d0, type: 2}
+--- !u!114 &2082123867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082123862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905172e128a2bc649ae34b6856d13efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataPath: 
+  selectedMap: 0
+  mapReadyToLoad: 0
+  mapReadyToSave: 0
+  chosenMapData:
+    tileID: 
+    warpCords: {x: 0, y: 0}
+--- !u!114 &2082123868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082123862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71f2a72e2de24540a6cb73b25ce94ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iTM: {fileID: 0}
+  newGridTime: 0
+  dataPath: 

@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileName: Ground
   tileMaterial: {fileID: 2100000, guid: 8c22f902e6e6bc7429672c8929c93031, type: 2}
-  invisible: 0
-  infantryCanWalk: 1
-  armoredCanWalk: 1
-  cavalryCanWalk: 1
-  flyingCanWalk: 1
-  avoidModifier: 0
-  defModifier: 0
-  resModifier: 0
-  movementModifier: 1
-  healModifier: 0
+  Passable: 1
+  Invisible: 0
+  Switch: 0
+  Transition: 0

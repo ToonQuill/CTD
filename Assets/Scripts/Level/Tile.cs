@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Tile Type", menuName = "NFE/New Tile Type", order = 2)]
+[CreateAssetMenu(fileName = "New Tile Type", menuName = "CTD/New Tile Type", order = 2)]
 public class Tile : ScriptableObject
 {
     [Header("Tile Information")]
@@ -12,8 +12,9 @@ public class Tile : ScriptableObject
     [Header("Tile Attributes")]
     public bool Passable = true;
     public bool Invisible = false;
+
+    [Header("Tile Effects")]
     public bool Switch = false;
-
-
+    public bool Transition = false;
 }
 

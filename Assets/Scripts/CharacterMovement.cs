@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour
     private Vector3 newLocationVector;
 
     private bool playerPlaced = false;
-    private bool playerIsMoving = false;
+    public bool playerIsMoving = false;
 
     public Vector2 playerLocation;
     public Vector2 playerLocationGoing;
@@ -19,10 +19,12 @@ public class CharacterMovement : MonoBehaviour
 
     private CreateGrid grid;
     private IndividualTileManager iTM;
+    private RoomManager roomManager;
     // Start is called before the first frame update
     void Start()
     {
         grid = this.GetComponent<CreateGrid>();
+        roomManager = this.GetComponent<RoomManager>();
     }
     private void initPlayer()
     {
@@ -140,10 +142,10 @@ public class CharacterMovement : MonoBehaviour
     }
     private void characterIsMoving()
     {
-        player.transform.position = Vector3.MoveTowards(player.transform.position, newLocationVector, Time.deltaTime * 40f);
-        float distance = Vector3.Distance(player.transform.position, newLocation.transform.position);
-        if (distance < 0.1f)
+        player.transform.position = Vector3.MoveTowards(player.transform.position, newLocationVector, Time.deltaTime * 50f);
+        if (player.transform.position == newLocationVector)
         {
+            roomManager.checkSpace();
             playerIsMoving = false;
         }
     }
