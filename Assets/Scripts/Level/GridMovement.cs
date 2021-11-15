@@ -36,7 +36,6 @@ public class GridMovement : MonoBehaviour
         grid = this.GetComponent<CreateGrid>();
         //chaMov = this.GetComponentInParent<ScriptReferences>().chaMov;
     }
-
     void Update()
     {
         inputManager();

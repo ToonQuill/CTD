@@ -27,7 +27,10 @@ public class IndividualTileManager : MonoBehaviour
 
     private bool foundNeighbours = false;
 
+    //special tile properties
     public Vector2 warpCords = new Vector2(0, 0);
+    public int descendingNumber = -1;
+    private bool establishedDescendingNumberEffect = false;
 
     void Start()
     {
@@ -66,7 +69,11 @@ public class IndividualTileManager : MonoBehaviour
             currentTileData = tileData;
             this.GetComponent<Renderer>().enabled = true;
             this.GetComponent<Renderer>().sharedMaterial = currentTileData.tileMaterial;
-            if (currentTileData.Invisible)
+            if (currentTileData.descendingTile)
+            {
+                descendingNumber = currentTileData.descendingNumber;
+            }
+            if (currentTileData.Invisible || (currentTileData.descendingTile && descendingNumber == 0))
             {
                 this.GetComponent<Renderer>().enabled = false;
             }
@@ -76,6 +83,7 @@ public class IndividualTileManager : MonoBehaviour
             }
             tileCanBeChanged = false;
         }
+
     }
     private void FindNeighbours()
     {
@@ -93,5 +101,9 @@ public class IndividualTileManager : MonoBehaviour
             }
         }
         foundNeighbours = true;
+    }
+    public void MovementInfluencingTiles()
+    {
+
     }
 }

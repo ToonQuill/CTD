@@ -12,9 +12,15 @@ public class Tile : ScriptableObject
     [Header("Tile Attributes")]
     public bool Passable = true;
     public bool Invisible = false;
+    public bool Void = false;
 
     [Header("Tile Effects")]
     public bool Switch = false;
     public bool Transition = false;
+
+    [Header("Descending Tiles")]
+    public bool descendingTile = false;
+    public int descendingNumber = 0;
+
 }
 

@@ -5,4 +5,5 @@ using UnityEngine;
 public class TileDatabase : MonoBehaviour
 {
     public Tile[] allTileTypes;
+    public Tile[] descendingTiles;
 }

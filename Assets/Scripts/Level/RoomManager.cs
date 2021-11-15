@@ -11,6 +11,7 @@ public class RoomManager : MonoBehaviour
     private SaveLoadMaps savingManager;
 
     private int currentRoom = 1;
+    public bool currentlyTransistioning = false;
 
     //0 = nothing, 1 = new grid, 2 = load existing
     public int newGridTime = 0;
@@ -34,7 +35,9 @@ public class RoomManager : MonoBehaviour
             if (grid.tileData.storedCoordinates[i] == characterManager.playerLocation)
             {
                 iTM = grid.tileData.storedGameObjects[i].GetComponent<IndividualTileManager>();
-                checkForTransition();
+                //all space/character intersections here
+                checkForUnavailableSpace();
+                if (characterManager.playerAlive) { checkForTransition(); }
             }
         }
     }
@@ -42,6 +45,7 @@ public class RoomManager : MonoBehaviour
     {
         if (iTM.tileData.Transition == true)
         {
+            currentlyTransistioning = true;
             //has a transition been set yet?
             if (iTM.warpCords == new Vector2(0, 0))
             {
@@ -64,6 +68,14 @@ public class RoomManager : MonoBehaviour
                 savingManager.LoadLevelData(chosenRoom);
                 currentRoom = chosenRoom;
             }
+        }
+    }
+    private void checkForUnavailableSpace()
+    {
+        if (iTM.tileData.Void == true)
+        {
+            characterManager.playerAlive = false;
+            Debug.Log("Get Duuuunked On");
         }
     }
 }

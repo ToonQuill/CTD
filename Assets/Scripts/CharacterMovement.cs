@@ -9,6 +9,7 @@ public class CharacterMovement : MonoBehaviour
     private GameObject currentLocation, newLocation;
     private Vector3 newLocationVector;
 
+    public bool playerAlive = true;
     private bool playerPlaced = false;
     public bool playerIsMoving = false;
 
@@ -20,11 +21,13 @@ public class CharacterMovement : MonoBehaviour
     private CreateGrid grid;
     private IndividualTileManager iTM;
     private RoomManager roomManager;
+    private TileDatabase tileDatabase;
     // Start is called before the first frame update
     void Start()
     {
         grid = this.GetComponent<CreateGrid>();
         roomManager = this.GetComponent<RoomManager>();
+        tileDatabase = this.GetComponent<TileDatabase>();
     }
     private void initPlayer()
     {
@@ -68,22 +71,22 @@ public class CharacterMovement : MonoBehaviour
 
     private void inputManager()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) && playerAlive)
         {
             playerLocationGoing = new Vector2(playerLocationGoing.x, playerLocationGoing.y + 1);
             updatePlayerCoordinates();
         }
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow) && playerAlive)
         {
             playerLocationGoing = new Vector2(playerLocationGoing.x, playerLocationGoing.y - 1);
             updatePlayerCoordinates();
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) && playerAlive)
         {
             playerLocationGoing = new Vector2(playerLocationGoing.x - 1, playerLocationGoing.y);
             updatePlayerCoordinates();
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) && playerAlive)
         {
             playerLocationGoing = new Vector2(playerLocationGoing.x + 1, playerLocationGoing.y);
             updatePlayerCoordinates();
@@ -146,7 +149,26 @@ public class CharacterMovement : MonoBehaviour
         if (player.transform.position == newLocationVector)
         {
             roomManager.checkSpace();
+            if (playerAlive && !roomManager.currentlyTransistioning) { characterMovementInfluencingTiles(); }
             playerIsMoving = false;
+            roomManager.currentlyTransistioning = false;
+        }
+    }
+    private void characterMovementInfluencingTiles()
+    {
+        //for any tiles influenced by movement
+        for (int i = 0; i < grid.gridSize; i++)
+        {
+            iTM = grid.tileData.storedGameObjects[i].GetComponent<IndividualTileManager>();
+            if (iTM.currentTileData.descendingTile)
+            {
+                iTM.descendingNumber--;
+                if (iTM.descendingNumber < 0)
+                {
+                    iTM.descendingNumber = 5;
+                }
+                iTM.tileData = tileDatabase.descendingTiles[iTM.descendingNumber];
+            }
         }
     }
 }
