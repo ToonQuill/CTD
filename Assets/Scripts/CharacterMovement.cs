@@ -7,7 +7,7 @@ public class CharacterMovement : MonoBehaviour
 
     public GameObject player;
     private GameObject currentLocation, newLocation;
-    private Vector3 newLocationVector;
+    public Vector3 newLocationVector;
 
     public bool playerAlive = true;
     private bool playerPlaced = false;
@@ -22,12 +22,14 @@ public class CharacterMovement : MonoBehaviour
     private IndividualTileManager iTM;
     private RoomManager roomManager;
     private TileDatabase tileDatabase;
+    private CameraMovement cameraManager;
     // Start is called before the first frame update
     void Start()
     {
         grid = this.GetComponent<CreateGrid>();
         roomManager = this.GetComponent<RoomManager>();
         tileDatabase = this.GetComponent<TileDatabase>();
+        cameraManager = this.GetComponent<CameraMovement>();
     }
     private void initPlayer()
     {
@@ -140,6 +142,7 @@ public class CharacterMovement : MonoBehaviour
                     newLocation.transform.position.z);
                 playerIsMoving = true;
                 playerLocation = playerLocationGoing;
+                cameraManager.movingCamera();
             }
         }
     }

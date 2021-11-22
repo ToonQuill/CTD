@@ -13,14 +13,17 @@ public class Tile : ScriptableObject
     public bool Passable = true;
     public bool Invisible = false;
     public bool Void = false;
+    public bool Wall = false;
 
-    [Header("Tile Effects")]
+    [Header("Switch Effects")]
     public bool Switch = false;
-    public bool Transition = false;
+    public bool SwitchEffect = false;
 
-    [Header("Descending Tiles")]
+    [Header("Descending Effects")]
     public bool descendingTile = false;
     public int descendingNumber = 0;
 
+    [Header("Misc Effects)")]
+    public bool Transition = false;
 }
 

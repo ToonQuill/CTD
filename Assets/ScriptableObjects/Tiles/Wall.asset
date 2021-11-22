@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc4a087e4d3ffd468a31125c064d29e, type: 3}
+  m_Name: Wall
+  m_EditorClassIdentifier: 
+  tileName: Wall
+  tileMaterial: {fileID: 2100000, guid: 708130f7987023b4f93bd1100f0c1143, type: 2}
+  Passable: 0
+  Invisible: 0
+  Void: 0
+  Wall: 1
+  Switch: 0
+  SwitchEffect: 0
+  descendingTile: 0
+  descendingNumber: 0
+  Transition: 0

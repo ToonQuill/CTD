@@ -6,6 +6,8 @@ public class CreateGrid : MonoBehaviour
     //data from prefab
     [Header("Assignable GameObjects")]
     public GameObject defaultTile;
+    public GameObject wallTile;
+    public GameObject switchTile;
 
     [Header("Grid Configuration")]
     //grid data
@@ -36,13 +38,11 @@ public class CreateGrid : MonoBehaviour
         public Vector2[] storedCoordinates;
         public GameObject[] storedGameObjects;
     }
-
     void Start()
     {
         //gm = this.GetComponent<GridMovement>();
         initTiles();
     }
-
     public void initTiles()
     {
         gridSize = gridWidth * gridDepth;

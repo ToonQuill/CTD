@@ -8,6 +8,7 @@ public class RoomManager : MonoBehaviour
     private CreateGrid grid;
     private CharacterMovement characterManager;
     public IndividualTileManager iTM;
+    private TileDatabase tileDatabase;
     private SaveLoadMaps savingManager;
 
     private int currentRoom = 1;
@@ -22,6 +23,7 @@ public class RoomManager : MonoBehaviour
         grid = this.GetComponent<CreateGrid>();
         characterManager = this.GetComponent<CharacterMovement>();
         savingManager = this.GetComponent<SaveLoadMaps>();
+        tileDatabase = this.GetComponent<TileDatabase>();
         dataPath = System.IO.Directory.GetCurrentDirectory() + "/Assets/SavedRooms/";
     }
     void Update()
@@ -37,6 +39,7 @@ public class RoomManager : MonoBehaviour
                 iTM = grid.tileData.storedGameObjects[i].GetComponent<IndividualTileManager>();
                 //all space/character intersections here
                 checkForUnavailableSpace();
+                checkForSwitchSpace();
                 if (characterManager.playerAlive) { checkForTransition(); }
             }
         }
@@ -75,7 +78,24 @@ public class RoomManager : MonoBehaviour
         if (iTM.tileData.Void == true)
         {
             characterManager.playerAlive = false;
-            Debug.Log("Get Duuuunked On");
+            Debug.Log("Get Duuunnnkkkeddd On");
+        }
+    }
+
+    private void checkForSwitchSpace()
+    {
+        if (iTM.currentTileData.Switch == true)
+        {
+            iTM.switchTile.GetComponent<Renderer>().enabled = false;
+            int switchNumber = iTM.switchNumber;
+            for (int v = 0; v < grid.gridSize; v++)
+            {
+                iTM = grid.tileData.storedGameObjects[v].GetComponent<IndividualTileManager>();
+                if (switchNumber == iTM.switchNumberEffect)
+                {
+                    iTM.tileData = iTM.switchTransformInto;
+                }
+            }
         }
     }
 }

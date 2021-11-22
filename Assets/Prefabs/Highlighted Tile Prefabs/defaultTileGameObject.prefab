@@ -117,19 +117,14 @@ MonoBehaviour:
   currentTileData: {fileID: 0}
   xCord: 0
   zCord: 0
-  temporaryMovementVariable: 0
-  temporaryMovementVariableAlt: 0
-  movementVariable: 0
-  temporaryReverseMovementVariable: 0
-  reverseMovementVariable: 0
   tileIsMoveable: 0
   tileIsArrow: 0
   moveableTile: 0
   isOccupied: 0
   neighbours: []
   tileColliders: []
-  testHighlight: 0
-  badSpot: 0
+  warpCords: {x: 0, y: 0}
+  descendingNumber: -1
 --- !u!1 &4079347672252382544
 GameObject:
   m_ObjectHideFlags: 0
