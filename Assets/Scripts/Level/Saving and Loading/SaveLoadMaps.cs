@@ -14,6 +14,9 @@ public class SaveLoadMaps : MonoBehaviour
     {
         public string tileID;
         public Vector2 warpCords;
+        public int switchNumber;
+        public int switchNumberEffect;
+        public Tile switchTransformInto;
         //more data, like starting positions, enemy positions, enemy data, etc, can be saved here... but that's for later!
     }
     public class savedLevelData
@@ -96,6 +99,18 @@ public class SaveLoadMaps : MonoBehaviour
                 {
                     iTM.warpCords = savedLevel.iTD[i].warpCords;
                 }
+                if (savedLevel.iTD[i].switchNumber != 0)
+                {
+                    iTM.switchNumber = savedLevel.iTD[i].switchNumber;
+                }
+                if (savedLevel.iTD[i].switchNumberEffect != 0)
+                {
+                    iTM.switchNumberEffect = savedLevel.iTD[i].switchNumberEffect;
+                }
+                if (savedLevel.iTD[i].switchTransformInto != iTM.switchTransformInto)
+                {
+                    iTM.switchTransformInto = savedLevel.iTD[i].switchTransformInto;
+                }
             }
         }
         mapReadyToLoad = false;
@@ -114,6 +129,16 @@ public class SaveLoadMaps : MonoBehaviour
             iTM = child.GetComponent<IndividualTileManager>();
             chosenMapData.tileID = iTM.tileData.tileName;
             chosenMapData.warpCords = iTM.warpCords;
+            chosenMapData.switchNumber = iTM.switchNumber;
+            chosenMapData.switchNumberEffect = iTM.switchNumberEffect;
+            if (iTM.switchTransformInto != null)
+            {
+                chosenMapData.switchTransformInto = iTM.switchTransformInto;
+            }
+            else
+            {
+                chosenMapData.switchTransformInto = tileDatabase.allTileTypes[0];
+            }
             savedLevel.iTD.Add(chosenMapData);
         }
         json = JsonUtility.ToJson(savedLevel, true);

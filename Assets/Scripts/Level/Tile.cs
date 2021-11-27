@@ -12,6 +12,7 @@ public class Tile : ScriptableObject
     [Header("Tile Attributes")]
     public bool Passable = true;
     public bool Invisible = false;
+    public bool RespawnPoint = true;
     public bool Void = false;
     public bool Wall = false;
 
@@ -23,7 +24,7 @@ public class Tile : ScriptableObject
     public bool descendingTile = false;
     public int descendingNumber = 0;
 
-    [Header("Misc Effects)")]
+    [Header("Misc Effects")]
     public bool Transition = false;
 }
 

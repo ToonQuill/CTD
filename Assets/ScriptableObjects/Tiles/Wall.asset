@@ -16,6 +16,7 @@ MonoBehaviour:
   tileMaterial: {fileID: 2100000, guid: 708130f7987023b4f93bd1100f0c1143, type: 2}
   Passable: 0
   Invisible: 0
+  RespawnPoint: 0
   Void: 0
   Wall: 1
   Switch: 0

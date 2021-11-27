@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9cc4a087e4d3ffd468a31125c064d29e, type: 3}
-  m_Name: Water
+  m_Name: DebugOnly
   m_EditorClassIdentifier: 
-  tileName: Water
-  tileMaterial: {fileID: 2100000, guid: 08f859c59b216544bb16f7c9d3802b67, type: 2}
-  Passable: 0
+  tileName: DebugOnly
+  tileMaterial: {fileID: 2100000, guid: c4b7e5b1b6b70c143a1392e117680896, type: 2}
+  Passable: 1
   Invisible: 0
-  RespawnPoint: 0
+  RespawnPoint: 1
   Void: 0
   Wall: 0
   Switch: 0

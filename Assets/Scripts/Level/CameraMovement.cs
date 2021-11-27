@@ -25,6 +25,7 @@ public class CameraMovement : MonoBehaviour
     Vector3 originCameraLocation;
     Vector3 newCameraLocation;
 
+    public bool cameraAssigned = false;
     public bool cameraIsMoving = false;
     public bool freezeMovement = false;
     void Awake()
@@ -37,12 +38,17 @@ public class CameraMovement : MonoBehaviour
     {
         grid = this.GetComponent<CreateGrid>();
         characterManager = this.GetComponent<CharacterMovement>();
-        assignedCamera.transform.position = new Vector3(characterManager.player.transform.position.x,
-            characterManager.player.transform.position.y + 50f, characterManager.player.transform.position.z - 10f);
     }
 
     public void Update()
     {
+        if (!cameraAssigned && characterManager.playerPlaced)
+        {
+            newCameraLocation = characterManager.newLocationVector;
+            assignedCamera.transform.position = new Vector3(newCameraLocation.x,
+            newCameraLocation.y + 50f, newCameraLocation.z);
+            cameraAssigned = true;
+        }
         if (cameraIsMoving)
         {
             moveCameraToPlayer();

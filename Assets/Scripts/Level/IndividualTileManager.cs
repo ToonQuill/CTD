@@ -38,7 +38,6 @@ public class IndividualTileManager : MonoBehaviour
     public int switchNumberEffect = 0;
     public Tile switchTransformInto;
     //public string switchEffect;
-
     void Start()
     {
         neighbours = new List<GameObject>();
@@ -122,7 +121,6 @@ public class IndividualTileManager : MonoBehaviour
             }
         }
         tileCanBeChanged = false;
-
     }
     private void FindNeighbours()
     {

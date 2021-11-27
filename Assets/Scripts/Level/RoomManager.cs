@@ -77,8 +77,9 @@ public class RoomManager : MonoBehaviour
     {
         if (iTM.tileData.Void == true)
         {
-            characterManager.playerAlive = false;
+            //characterManager.playerAlive = false;
             Debug.Log("Get Duuunnnkkkeddd On");
+            characterManager.resetPlayerLocation();
         }
     }
 

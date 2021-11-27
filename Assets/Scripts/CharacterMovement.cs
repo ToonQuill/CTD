@@ -10,8 +10,9 @@ public class CharacterMovement : MonoBehaviour
     public Vector3 newLocationVector;
 
     public bool playerAlive = true;
-    private bool playerPlaced = false;
+    public bool playerPlaced = false;
     public bool playerIsMoving = false;
+    public GameObject playerRespawnPoint;
 
     public Vector2 playerLocation;
     public Vector2 playerLocationGoing;
@@ -45,6 +46,8 @@ public class CharacterMovement : MonoBehaviour
                 player.transform.position = new Vector3(spawnLocation.x, spawnLocation.y + 5f, spawnLocation.z);
             }
         }
+        newLocationVector = new Vector3(player.transform.position.x, player.transform.position.y,
+        player.transform.position.z - 10f);
         playerPlaced = true;
     }
 
@@ -142,6 +145,10 @@ public class CharacterMovement : MonoBehaviour
                     newLocation.transform.position.z);
                 playerIsMoving = true;
                 playerLocation = playerLocationGoing;
+                if (grid.tileData.storedGameObjects[i].GetComponent<IndividualTileManager>().tileData.RespawnPoint)
+                {
+                    playerRespawnPoint = grid.tileData.storedGameObjects[i];
+                }
                 cameraManager.movingCamera();
             }
         }
@@ -154,6 +161,7 @@ public class CharacterMovement : MonoBehaviour
             roomManager.checkSpace();
             if (playerAlive && !roomManager.currentlyTransistioning) { characterMovementInfluencingTiles(); }
             playerIsMoving = false;
+            roomManager.checkSpace();
             roomManager.currentlyTransistioning = false;
         }
     }
@@ -171,6 +179,22 @@ public class CharacterMovement : MonoBehaviour
                     iTM.descendingNumber = 5;
                 }
                 iTM.tileData = tileDatabase.descendingTiles[iTM.descendingNumber];
+            }
+        }
+    }
+    public void resetPlayerLocation()
+    {
+        for (int i = 0; i < grid.gridSize; i++)
+        {
+            if (grid.tileData.storedGameObjects[i] == playerRespawnPoint)
+            {
+                playerLocation = grid.tileData.storedCoordinates[i];
+                playerLocationGoing = grid.tileData.storedCoordinates[i];
+                newLocation = grid.tileData.storedGameObjects[i];
+                newLocationVector = new Vector3(newLocation.transform.position.x, newLocation.transform.position.y + 5f,
+                newLocation.transform.position.z);
+                player.transform.position = newLocationVector;
+                cameraManager.movingCamera();
             }
         }
     }
