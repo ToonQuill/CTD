@@ -10,9 +10,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20458
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -22,9 +20,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -34,9 +30,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Switch",
@@ -46,9 +40,7 @@
             },
             "switchNumber": 6,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -58,9 +50,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -70,9 +60,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -82,9 +70,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc2",
@@ -94,9 +80,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -106,9 +90,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -118,9 +100,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -130,9 +110,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -142,9 +120,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -154,9 +130,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc2",
@@ -166,9 +140,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -178,9 +150,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -190,9 +160,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -202,9 +170,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -214,9 +180,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -226,9 +190,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -238,9 +200,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -250,9 +210,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -262,9 +220,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20456
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -274,9 +230,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20454
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -286,9 +240,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -298,9 +250,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20440
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -310,9 +260,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -322,9 +270,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -334,9 +280,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -346,9 +290,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -358,9 +300,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc2",
@@ -370,9 +310,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -382,9 +320,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -394,9 +330,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -406,9 +340,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -418,9 +350,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -430,9 +360,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -442,9 +370,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -454,9 +380,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -466,9 +390,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -478,9 +400,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -490,9 +410,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -502,9 +420,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -514,9 +430,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20452
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -526,9 +440,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -538,9 +450,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -550,9 +460,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20440
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -562,9 +470,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -574,9 +480,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 21026
-            }
+            "switchTransformInto": 13
         },
         {
             "tileID": "Air",
@@ -586,9 +490,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -598,9 +500,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -610,9 +510,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -622,9 +520,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -634,9 +530,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -646,9 +540,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -658,9 +550,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -670,9 +560,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -682,9 +570,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -694,9 +580,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -706,9 +590,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -718,9 +600,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -730,9 +610,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -742,9 +620,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -754,9 +630,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -766,9 +640,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -778,9 +650,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -790,9 +660,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -802,9 +670,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -814,9 +680,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -826,9 +690,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -838,9 +700,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -850,9 +710,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -862,9 +720,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -874,9 +730,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -886,9 +740,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -898,9 +750,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -910,9 +760,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -922,9 +770,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -934,9 +780,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -946,9 +790,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -958,9 +800,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -970,9 +810,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Switch",
@@ -982,9 +820,7 @@
             },
             "switchNumber": 4,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -994,9 +830,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -1006,9 +840,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1018,9 +850,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20450
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1030,9 +860,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1042,9 +870,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1054,9 +880,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1066,9 +890,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1078,9 +900,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1090,9 +910,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1102,9 +920,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1114,9 +930,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1126,9 +940,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1138,9 +950,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1150,9 +960,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1162,9 +970,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1174,9 +980,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1186,9 +990,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1198,9 +1000,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1210,9 +1010,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1222,9 +1020,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1234,9 +1030,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1246,9 +1040,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -1258,9 +1050,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1270,9 +1060,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20452
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1282,21 +1070,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1306,9 +1080,17 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 6,
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1318,9 +1100,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1330,9 +1110,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1342,9 +1120,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1354,9 +1130,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1366,9 +1140,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1378,9 +1150,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1390,9 +1160,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1402,9 +1170,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1414,9 +1180,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1426,9 +1190,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 7,
-            "switchTransformInto": {
-                "instanceID": 21026
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Switch",
@@ -1438,9 +1200,7 @@
             },
             "switchNumber": 7,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1450,9 +1210,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1462,9 +1220,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1474,9 +1230,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1486,9 +1240,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -1498,9 +1250,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -1510,9 +1260,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1522,9 +1270,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20454
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1534,237 +1280,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Wall",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Wall",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1774,33 +1290,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20456
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1810,9 +1300,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1822,9 +1310,17 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1834,9 +1330,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1846,9 +1340,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1858,9 +1350,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1870,9 +1360,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1882,9 +1370,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1894,33 +1380,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Unassigned",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1930,9 +1390,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1942,9 +1400,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -1954,9 +1410,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1966,9 +1420,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1978,9 +1430,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -1990,9 +1440,17 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -2002,9 +1460,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -2014,21 +1470,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2038,9 +1480,27 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 6,
-            "switchTransformInto": {
-                "instanceID": 20442
-            }
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 6,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 6,
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2050,9 +1510,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2062,9 +1520,37 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2074,9 +1560,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2086,21 +1570,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2110,21 +1580,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2134,9 +1590,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2146,9 +1600,37 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2158,21 +1640,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2182,81 +1650,17 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
-            "tileID": "Air",
+            "tileID": "Unassigned",
             "warpCords": {
                 "x": 0.0,
                 "y": 0.0
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
-        },
-        {
-            "tileID": "Air",
-            "warpCords": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -2266,9 +1670,227 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Wall",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 6,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Wall",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -2278,9 +1900,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -2290,9 +1910,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -2302,9 +1920,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2314,9 +1930,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2326,9 +1940,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2338,9 +1950,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2350,9 +1960,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2362,9 +1970,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2374,9 +1980,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2386,9 +1990,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2398,9 +2000,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2410,9 +2010,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2422,9 +2020,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2434,9 +2030,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2446,9 +2040,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2458,9 +2050,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2470,9 +2060,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2482,9 +2070,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2494,9 +2080,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2506,9 +2090,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -2518,9 +2100,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -2530,9 +2110,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc2",
@@ -2542,9 +2120,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -2554,9 +2130,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -2566,9 +2140,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2578,9 +2150,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2590,9 +2160,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2602,9 +2170,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2614,9 +2180,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2626,9 +2190,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2638,9 +2200,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2650,9 +2210,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2662,9 +2220,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Switch",
@@ -2674,9 +2230,7 @@
             },
             "switchNumber": 1,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2686,9 +2240,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2698,9 +2250,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 1,
-            "switchTransformInto": {
-                "instanceID": 21026
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2710,9 +2260,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 2,
-            "switchTransformInto": {
-                "instanceID": 21026
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2722,9 +2270,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 3,
-            "switchTransformInto": {
-                "instanceID": 21026
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2734,9 +2280,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 4,
-            "switchTransformInto": {
-                "instanceID": 21026
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2746,9 +2290,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 5,
-            "switchTransformInto": {
-                "instanceID": 21026
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2758,9 +2300,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2770,9 +2310,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -2782,9 +2320,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -2794,9 +2330,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -2806,9 +2340,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2818,9 +2350,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2830,9 +2360,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2842,9 +2370,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2854,9 +2380,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2866,9 +2390,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2878,9 +2400,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2890,9 +2410,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2902,9 +2420,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2914,9 +2430,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2926,9 +2440,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -2938,9 +2450,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2950,9 +2460,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2962,9 +2470,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2974,9 +2480,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2986,9 +2490,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -2998,9 +2500,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3010,9 +2510,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -3022,9 +2520,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3034,9 +2530,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -3046,9 +2540,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3058,9 +2550,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3070,9 +2560,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3082,9 +2570,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3094,9 +2580,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3106,9 +2590,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3118,9 +2600,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3130,9 +2610,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3142,9 +2620,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3154,9 +2630,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3166,9 +2640,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3178,9 +2650,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3190,9 +2660,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3202,9 +2670,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3214,9 +2680,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3226,9 +2690,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3238,9 +2700,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3250,9 +2710,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3262,9 +2720,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -3274,9 +2730,7 @@
             },
             "switchNumber": 2,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Switch",
@@ -3286,9 +2740,7 @@
             },
             "switchNumber": 2,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3298,9 +2750,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3310,9 +2760,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3322,9 +2770,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3334,9 +2780,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3346,9 +2790,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3358,9 +2800,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3370,9 +2810,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3382,9 +2820,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3394,9 +2830,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -3406,9 +2840,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3418,9 +2850,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3430,9 +2860,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3442,9 +2870,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3454,9 +2880,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3466,9 +2890,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3478,9 +2900,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3490,9 +2910,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3502,9 +2920,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3514,9 +2930,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -3526,9 +2940,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3538,9 +2950,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3550,9 +2960,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3562,9 +2970,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3574,9 +2980,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3586,9 +2990,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3598,9 +3000,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3610,9 +3010,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3622,9 +3020,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3634,9 +3030,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -3646,9 +3040,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc2",
@@ -3658,9 +3050,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -3670,9 +3060,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3682,9 +3070,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3694,9 +3080,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3706,9 +3090,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3718,9 +3100,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3730,9 +3110,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3742,9 +3120,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3754,9 +3130,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -3766,9 +3140,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -3778,9 +3150,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3790,9 +3160,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3802,9 +3170,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3814,9 +3180,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3826,9 +3190,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3838,9 +3200,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3850,9 +3210,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3862,9 +3220,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3874,9 +3230,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -3886,9 +3240,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -3898,9 +3250,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -3910,9 +3260,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -3922,9 +3270,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -3934,9 +3280,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -3946,9 +3290,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3958,9 +3300,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3970,9 +3310,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3982,9 +3320,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -3994,9 +3330,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4006,9 +3340,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4018,9 +3350,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -4030,9 +3360,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4042,9 +3370,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4054,9 +3380,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4066,9 +3390,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4078,9 +3400,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4090,9 +3410,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4102,9 +3420,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4114,9 +3430,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4126,9 +3440,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4138,9 +3450,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -4150,9 +3460,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -4162,9 +3470,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4174,9 +3480,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4186,9 +3490,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4198,9 +3500,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4210,9 +3510,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4222,9 +3520,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4234,9 +3530,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4246,9 +3540,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Switch",
@@ -4258,9 +3550,7 @@
             },
             "switchNumber": 5,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4270,9 +3560,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -4282,9 +3570,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4294,9 +3580,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4306,9 +3590,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4318,9 +3600,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4330,9 +3610,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4342,9 +3620,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4354,9 +3630,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4366,9 +3640,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4378,9 +3650,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4390,9 +3660,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4402,9 +3670,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc5",
@@ -4414,9 +3680,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -4426,9 +3690,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -4438,9 +3700,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4450,9 +3710,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4462,9 +3720,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4474,9 +3730,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4486,9 +3740,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4498,9 +3750,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4510,9 +3760,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4522,9 +3770,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -4534,9 +3780,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4546,9 +3790,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4558,9 +3800,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4570,9 +3810,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4582,9 +3820,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4594,9 +3830,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4606,9 +3840,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4618,9 +3850,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4630,9 +3860,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4642,9 +3870,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4654,9 +3880,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4666,9 +3890,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc2",
@@ -4678,9 +3900,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -4690,9 +3910,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -4702,9 +3920,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4714,9 +3930,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4726,9 +3940,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4738,9 +3950,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4750,9 +3960,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4762,9 +3970,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -4774,9 +3980,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -4786,9 +3990,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4798,9 +4000,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4810,9 +4010,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4822,9 +4020,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Switch",
@@ -4834,9 +4030,7 @@
             },
             "switchNumber": 3,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -4846,9 +4040,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -4858,9 +4050,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -4870,9 +4060,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -4882,9 +4070,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4894,9 +4080,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4906,9 +4090,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -4918,9 +4100,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -4930,9 +4110,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc2",
@@ -4942,9 +4120,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -4954,9 +4130,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -4966,9 +4140,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4978,9 +4150,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -4990,9 +4160,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5002,9 +4170,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5014,9 +4180,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -5026,9 +4190,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -5038,9 +4200,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -5050,9 +4210,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -5062,9 +4220,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Air",
@@ -5074,9 +4230,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5086,9 +4240,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5098,9 +4250,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -5110,9 +4260,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -5122,9 +4270,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -5134,9 +4280,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5146,9 +4290,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5158,9 +4300,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5170,9 +4310,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5182,9 +4320,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc3",
@@ -5194,9 +4330,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc2",
@@ -5206,9 +4340,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc1",
@@ -5218,9 +4350,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc0",
@@ -5230,9 +4360,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -5242,9 +4370,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Desc4",
@@ -5254,9 +4380,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5266,9 +4390,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Unassigned",
@@ -5278,9 +4400,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         },
         {
             "tileID": "Wall",
@@ -5290,9 +4410,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 0,
-            "switchTransformInto": {
-                "instanceID": -530702
-            }
+            "switchTransformInto": 0
         }
     ]
 }
