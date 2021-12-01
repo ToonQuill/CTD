@@ -10,6 +10,7 @@ public class RoomManager : MonoBehaviour
     public IndividualTileManager iTM;
     private TileDatabase tileDatabase;
     private SaveLoadMaps savingManager;
+    private DataCollection dataCollection;
 
     private int currentRoom = 1;
     public bool currentlyTransistioning = false;
@@ -24,6 +25,7 @@ public class RoomManager : MonoBehaviour
         characterManager = this.GetComponent<CharacterMovement>();
         savingManager = this.GetComponent<SaveLoadMaps>();
         tileDatabase = this.GetComponent<TileDatabase>();
+        dataCollection = this.GetComponent<DataCollection>();
         dataPath = System.IO.Directory.GetCurrentDirectory() + "/Assets/SavedRooms/";
     }
     void Update()
@@ -80,6 +82,7 @@ public class RoomManager : MonoBehaviour
             //characterManager.playerAlive = false;
             Debug.Log("Get Duuunnnkkkeddd On");
             characterManager.resetPlayerLocation();
+            dataCollection.roomDeaths++;
         }
     }
 

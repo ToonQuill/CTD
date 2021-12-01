@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Project NFE
+  m_text: Put Title Here
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -189,8 +189,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -76.29134, y: 0, z: -133.29901, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -537,7 +537,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1474145501}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: TransitionOutToMenu
+        m_MethodName: TransitionOutTolevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1474145501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,7 +864,7 @@ MonoBehaviour:
   transitionTimer: 0
   turnCountDisplay: {fileID: 0}
   mapManager: {fileID: 2082123867}
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 2082123870}
 --- !u!114 &1474145502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1213,7 +1213,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is a project that
+  m_text: Put instructions here
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1222,8 +1222,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1299,13 +1299,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2082123864}
+  - component: {fileID: 2082123870}
   - component: {fileID: 2082123863}
   - component: {fileID: 2082123865}
   - component: {fileID: 2082123866}
   - component: {fileID: 2082123867}
   - component: {fileID: 2082123868}
   - component: {fileID: 2082123869}
-  - component: {fileID: 2082123870}
   - component: {fileID: 2082123871}
   m_Layer: 0
   m_Name: Game Manager
@@ -1329,8 +1329,10 @@ MonoBehaviour:
   defaultTile: {fileID: 999766790289108929, guid: 55d301deb0d53eb419e55a0f7bee2e73, type: 3}
   wallTile: {fileID: 4022648359831391372, guid: 8c7d73bf43afc324eb57ca5205607599, type: 3}
   switchTile: {fileID: 8221581670089935210, guid: 65854dad63bd2e749a9c32eed317f693, type: 3}
-  gridWidth: 16
-  gridDepth: 6
+  gridWidth: 5
+  gridDepth: 5
+  playerStartWidth: 0
+  playerStartDepth: 0
   gridSize: 0
   gridDistance: 5
   instantiatedTiles: 0
@@ -1361,7 +1363,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082123862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23975def30b9a624795645f218d96b0b, type: 3}
   m_Name: 
@@ -1415,7 +1417,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082123862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 905172e128a2bc649ae34b6856d13efd, type: 3}
   m_Name: 
@@ -1430,6 +1432,22 @@ MonoBehaviour:
     switchNumber: 0
     switchNumberEffect: 0
     switchTransformInto: 0
+  searchingForRoomPredictedStatsData:
+    challengeSkillBalance: 0
+    actionAwarenessMerging: 0
+    clearGoals: 0
+    unambiguousFeedback: 0
+    totalConcentration: 0
+    lossOfSelfConsciousness: 0
+    transformationOfTime: 0
+  searchingForTotalPredictedStatsData:
+    challengeSkillBalance: 0
+    actionAwarenessMerging: 0
+    clearGoals: 0
+    unambiguousFeedback: 0
+    totalConcentration: 0
+    lossOfSelfConsciousness: 0
+    transformationOfTime: 0
 --- !u!114 &2082123868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1437,7 +1455,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082123862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b71f2a72e2de24540a6cb73b25ce94ce, type: 3}
   m_Name: 
@@ -1453,7 +1471,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082123862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05a424290a13b85409d12ed90b3cb68b, type: 3}
   m_Name: 
@@ -1481,8 +1499,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playTest: 0
-  turnCount: 0
-  newTurn: 0
   menuManager: {fileID: 0}
 --- !u!114 &2082123871
 MonoBehaviour:
@@ -1491,7 +1507,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082123862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08e18eca6ac976043aba3e618faf0bc9, type: 3}
   m_Name: 
@@ -1504,4 +1520,75 @@ MonoBehaviour:
   roomHours: 0
   roomMinutes: 0
   roomSeconds: 0
+  challengeSkillBalance: 0
+  actionAwarenessMerging: 0
+  clearGoals: 0
+  unambiguousFeedback: 0
+  totalConcentration: 0
+  lossOfSelfConsciousness: 0
+  transformationOfTime: 0
+  totalAllTheStatistics:
+    savingData:
+      roomsCleared: 0
+      spacesMoved: 0
+      deaths: 0
+      seconds: 0
+      minutes: 0
+      hours: 0
+    predictingStats:
+      challengeSkillBalance: 0
+      actionAwarenessMerging: 0
+      clearGoals: 0
+      unambiguousFeedback: 0
+      totalConcentration: 0
+      lossOfSelfConsciousness: 0
+      transformationOfTime: 0
+  totalSavedData:
+    roomsCleared: 0
+    spacesMoved: 0
+    deaths: 0
+    seconds: 0
+    minutes: 0
+    hours: 0
+  currentPredictedStats:
+    challengeSkillBalance: 0
+    actionAwarenessMerging: 0
+    clearGoals: 0
+    unambiguousFeedback: 0
+    totalConcentration: 0
+    lossOfSelfConsciousness: 0
+    transformationOfTime: 0
+  roomAllTheStatistics:
+    savingData:
+      roomsCleared: 0
+      spacesMoved: 0
+      deaths: 0
+      seconds: 0
+      minutes: 0
+      hours: 0
+    predictingStats:
+      challengeSkillBalance: 0
+      actionAwarenessMerging: 0
+      clearGoals: 0
+      unambiguousFeedback: 0
+      totalConcentration: 0
+      lossOfSelfConsciousness: 0
+      transformationOfTime: 0
+  roomSavedData:
+    roomsCleared: 0
+    spacesMoved: 0
+    deaths: 0
+    seconds: 0
+    minutes: 0
+    hours: 0
+  roomPredictedStats:
+    challengeSkillBalance: 0
+    actionAwarenessMerging: 0
+    clearGoals: 0
+    unambiguousFeedback: 0
+    totalConcentration: 0
+    lossOfSelfConsciousness: 0
+    transformationOfTime: 0
+  roomSpacesMoved: 0
+  roomDeaths: 0
   debugSave: 0

@@ -1,19 +1,19 @@
 {
     "savingData": {
-        "roomsCleared": 4,
-        "spacesMoved": 145,
-        "deaths": 8,
-        "seconds": 57.41233825683594,
-        "minutes": 2.0,
+        "roomsCleared": 0,
+        "spacesMoved": 49,
+        "deaths": 12,
+        "seconds": 21.310832977294923,
+        "minutes": 0.0,
         "hours": 0.0
     },
     "predictingStats": {
-        "challengeSkillBalance": 0,
+        "challengeSkillBalance": 5,
         "actionAwarenessMerging": 0,
         "clearGoals": 0,
         "unambiguousFeedback": 0,
         "totalConcentration": 0,
-        "lossOfSelfConsciousness": 0,
+        "lossOfSelfConsciousness": 5,
         "transformationOfTime": 0
     }
 }

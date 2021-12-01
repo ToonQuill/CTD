@@ -1,10 +1,10 @@
 {
     "savingData": {
-        "roomsCleared": 4,
-        "spacesMoved": 145,
-        "deaths": 8,
-        "seconds": 57.41233825683594,
-        "minutes": 2.0,
+        "roomsCleared": 0,
+        "spacesMoved": 16,
+        "deaths": 0,
+        "seconds": 12.949501037597657,
+        "minutes": 1.0,
         "hours": 0.0
     },
     "predictingStats": {

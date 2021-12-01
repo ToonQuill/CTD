@@ -5,13 +5,33 @@ using System;
 using System.Globalization;
 using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
+
+[System.Serializable]
 public class savedData
 {
+    public int roomsCleared;
     public int spacesMoved;
     public int deaths;
     public float seconds;
     public float minutes;
     public float hours;
+}
+[System.Serializable]
+public class predictedStats
+{
+    public int challengeSkillBalance;
+    public int actionAwarenessMerging;
+    public int clearGoals;
+    public int unambiguousFeedback;
+    public int totalConcentration;
+    public int lossOfSelfConsciousness;
+    public int transformationOfTime;
+}
+[System.Serializable]
+public class allTheStatistics
+{
+    public savedData savingData;
+    public predictedStats predictingStats;
 }
 public class DataCollection : MonoBehaviour
 {
@@ -29,13 +49,27 @@ public class DataCollection : MonoBehaviour
     public float roomMinutes = 0;
     public float roomSeconds = 0;
 
-    public savedData totalSavedData = new savedData();
-    public savedData roomSavedData = new savedData();
+    public int challengeSkillBalance = 0;
+    public int actionAwarenessMerging = 0;
+    public int clearGoals = 0;
+    public int unambiguousFeedback = 0;
+    public int totalConcentration = 0;
+    public int lossOfSelfConsciousness = 0;
+    public int transformationOfTime = 0;
 
-    private int totalSpacesMoved;
-    private int totalDeaths;
-    private int roomSpacesMoved;
-    private int roomDeaths;
+    public allTheStatistics totalAllTheStatistics = new allTheStatistics();
+    public savedData totalSavedData = new savedData();
+    public predictedStats currentPredictedStats = new predictedStats();
+
+    public allTheStatistics roomAllTheStatistics = new allTheStatistics();
+    public savedData roomSavedData = new savedData();
+    public predictedStats roomPredictedStats = new predictedStats();
+
+    private int totalSpacesMoved = 0;
+    private int totalDeaths = 0;
+    private int totalRoomsCleared = 0;
+    public int roomSpacesMoved = 0;
+    public int roomDeaths = 0;
 
     public bool debugSave = false;
 
@@ -81,24 +115,57 @@ public class DataCollection : MonoBehaviour
     {
         addRoomStatsToTotal();
 
+        predictTheStats();
+
+        totalAllTheStatistics = new allTheStatistics();
+
         savedDataLocation = dataPath + "Playthrough " + saveNumber + " Full.json";
-        totalSavedData = new savedData();
-        totalSavedData.deaths = totalDeaths;
+
+        savedData totalSavedData = new savedData();
+        totalSavedData.roomsCleared = totalRoomsCleared++;
         totalSavedData.spacesMoved = totalSpacesMoved;
+        totalSavedData.deaths = totalDeaths;
         totalSavedData.hours = totalHours;
         totalSavedData.minutes = totalMinutes;
         totalSavedData.seconds = totalSeconds;
-        json = JsonUtility.ToJson(totalSavedData, true);
+        totalAllTheStatistics.savingData = totalSavedData; //adds saved data to all the stats big 
+
+        predictedStats totalPredictedStats = new predictedStats();
+        totalPredictedStats.challengeSkillBalance = totalPredictedStats.challengeSkillBalance + challengeSkillBalance;
+        totalPredictedStats.actionAwarenessMerging = totalPredictedStats.actionAwarenessMerging + actionAwarenessMerging;
+        totalPredictedStats.clearGoals = totalPredictedStats.clearGoals + clearGoals;
+        totalPredictedStats.unambiguousFeedback = totalPredictedStats.unambiguousFeedback + unambiguousFeedback;
+        totalPredictedStats.totalConcentration = totalPredictedStats.totalConcentration + totalConcentration;
+        totalPredictedStats.lossOfSelfConsciousness = totalPredictedStats.lossOfSelfConsciousness + lossOfSelfConsciousness;
+        totalPredictedStats.transformationOfTime = totalPredictedStats.transformationOfTime + transformationOfTime;
+        totalAllTheStatistics.predictingStats = totalPredictedStats;
+
+        json = JsonUtility.ToJson(totalAllTheStatistics, true);
         File.WriteAllText(savedDataLocation, json);
 
+
+        roomAllTheStatistics = new allTheStatistics();
+
         savedDataLocation = dataPath + "Playthrough " + saveNumber + " Room " + roomNumber + ".json";
-        roomSavedData = new savedData();
-        roomSavedData.deaths = roomDeaths;
+        savedData roomSavedData = new savedData();
         roomSavedData.spacesMoved = roomSpacesMoved;
+        roomSavedData.deaths = roomDeaths;
         roomSavedData.hours = roomHours;
         roomSavedData.minutes = roomMinutes;
         roomSavedData.seconds = roomSeconds;
-        json = JsonUtility.ToJson(roomSavedData, true);
+        roomAllTheStatistics.savingData = roomSavedData; //adds saved data to all the stats big 
+
+        predictedStats roomPredictedStats = new predictedStats();
+        roomPredictedStats.challengeSkillBalance = challengeSkillBalance;
+        roomPredictedStats.actionAwarenessMerging = actionAwarenessMerging;
+        roomPredictedStats.clearGoals = clearGoals;
+        roomPredictedStats.unambiguousFeedback = unambiguousFeedback;
+        roomPredictedStats.totalConcentration = totalConcentration;
+        roomPredictedStats.lossOfSelfConsciousness = lossOfSelfConsciousness;
+        roomPredictedStats.transformationOfTime = transformationOfTime;
+        roomAllTheStatistics.predictingStats = roomPredictedStats;
+
+        json = JsonUtility.ToJson(roomAllTheStatistics, true);
         File.WriteAllText(savedDataLocation, json);
 
         resetRoomStats();
@@ -142,5 +209,90 @@ public class DataCollection : MonoBehaviour
         roomSeconds = 0;
         roomMinutes = 0;
         roomHours = 0;
+    }
+    private void predictTheStats()
+    {
+        predictChallengeSkillBalance();
+        predictClearGoals();
+        predictLossOfSelfConsciousness();
+    }
+    private void predictChallengeSkillBalance()
+    {
+        challengeSkillBalance = roomSpacesMoved * roomDeaths;
+        if (challengeSkillBalance > 400)
+        {
+            challengeSkillBalance = 1;
+        }
+        else if (challengeSkillBalance > 300 && challengeSkillBalance < 400)
+        {
+            challengeSkillBalance = 2;
+        }
+        else if(challengeSkillBalance > 200 && challengeSkillBalance < 300)
+        {
+            challengeSkillBalance = 3;
+        }
+        else if(challengeSkillBalance > 100 && challengeSkillBalance < 200)
+        {
+            challengeSkillBalance = 4;
+        }
+        else if(challengeSkillBalance < 100)
+        {
+            challengeSkillBalance = 5;
+        }
+    }
+    private void predictClearGoals()
+    {
+        if (totalRoomsCleared > 1)
+        {
+            clearGoals = (totalSpacesMoved / totalRoomsCleared);
+            if (roomSpacesMoved > clearGoals + (3 * totalRoomsCleared))
+            {
+                clearGoals = 1;
+            }
+            if (roomSpacesMoved > clearGoals + (2 * totalRoomsCleared) && roomSpacesMoved < clearGoals + (3 * totalRoomsCleared))
+            {
+                clearGoals = 2;
+            }
+            if (roomSpacesMoved > clearGoals + totalRoomsCleared && roomSpacesMoved < clearGoals + (2 * totalRoomsCleared))
+            {
+                clearGoals = 3;
+            }
+            if (roomSpacesMoved < clearGoals + totalRoomsCleared)
+            {
+                clearGoals = 4;
+            }
+            if (roomSpacesMoved < clearGoals)
+            {
+                clearGoals = 5;
+            }
+        }
+    }
+    private void predictLossOfSelfConsciousness()
+    {
+        decimal convertMinsToInt = (decimal)roomMinutes;
+        decimal convertSecsToInt = (decimal)roomSeconds;
+        convertMinsToInt = convertMinsToInt * 100;
+        convertSecsToInt = (convertSecsToInt * 166) / 100;
+        decimal totalTime = convertMinsToInt + convertSecsToInt;
+        if (totalTime > 200)
+        {
+            lossOfSelfConsciousness = 1;
+        }
+        if (totalTime < 200 && totalTime > 150)
+        {
+            lossOfSelfConsciousness = 2;
+        }
+        if (totalTime < 150 && totalTime > 100)
+        {
+            lossOfSelfConsciousness = 3;
+        }
+        if (totalTime < 100 && totalTime > 50)
+        {
+            lossOfSelfConsciousness = 4;
+        }
+        if (totalTime < 50)
+        {
+            lossOfSelfConsciousness = 5;
+        }
     }
 }

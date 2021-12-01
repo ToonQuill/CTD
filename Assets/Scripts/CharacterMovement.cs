@@ -24,6 +24,7 @@ public class CharacterMovement : MonoBehaviour
     private RoomManager roomManager;
     private TileDatabase tileDatabase;
     private CameraMovement cameraManager;
+    private DataCollection dataCollection;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class CharacterMovement : MonoBehaviour
         roomManager = this.GetComponent<RoomManager>();
         tileDatabase = this.GetComponent<TileDatabase>();
         cameraManager = this.GetComponent<CameraMovement>();
+        dataCollection = this.GetComponent<DataCollection>();
     }
     private void initPlayer()
     {
@@ -163,6 +165,7 @@ public class CharacterMovement : MonoBehaviour
             playerIsMoving = false;
             roomManager.checkSpace();
             roomManager.currentlyTransistioning = false;
+            dataCollection.roomSpacesMoved++;
         }
     }
     private void characterMovementInfluencingTiles()

@@ -57,12 +57,20 @@ public class MenuManager : MonoBehaviour
             }
             if (loadLevel)
             {
-                if (mapManager.LoadLevelData(playersSelectedOption))
+                gameManager.playTest = true;
+                mapManager.selectedMap = 1;
+                mapManager.mapReadyToLoad = true;
+                //if (mapManager.LoadLevelData(playersSelectedOption))
+                //{
+                //    playersSelectedOption = 3;
+                //    LoadDifferentMenu();
+                //    //turnCountDisplay.text = "Turn Count: " + gameManager.turnCount.ToString();
+                //    loadLevel = false;
+                //}
+                loadLevel = false;
+                for (int i = 0; i < menus.Count; i++)
                 {
-                    playersSelectedOption = 3;
-                    LoadDifferentMenu();
-                    //turnCountDisplay.text = "Turn Count: " + gameManager.turnCount.ToString();
-                    loadLevel = false;
+                    menus[i].SetActive(false);
                 }
             }
         }

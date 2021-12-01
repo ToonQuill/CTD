@@ -1,1 +1,19 @@
-This saved data exists
+{
+    "savingData": {
+        "roomsCleared": 3,
+        "spacesMoved": 145,
+        "deaths": 37,
+        "seconds": 47.35246276855469,
+        "minutes": 1.0,
+        "hours": 0.0
+    },
+    "predictingStats": {
+        "challengeSkillBalance": 1,
+        "actionAwarenessMerging": 0,
+        "clearGoals": 4,
+        "unambiguousFeedback": 0,
+        "totalConcentration": 0,
+        "lossOfSelfConsciousness": 5,
+        "transformationOfTime": 0
+    }
+}

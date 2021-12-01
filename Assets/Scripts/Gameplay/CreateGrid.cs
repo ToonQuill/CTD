@@ -15,6 +15,7 @@ public class CreateGrid : MonoBehaviour
     public int gridWidth = 0;
     [Range(5, 30)]
     public int gridDepth = 0;
+    public Vector2 playerStartCoords;
     [HideInInspector] public int gridSize = 0;
 
     [HideInInspector] public float gridDistance= 5f;

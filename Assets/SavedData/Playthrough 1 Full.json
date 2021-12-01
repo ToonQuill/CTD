@@ -1,7 +1,18 @@
 {
-    "spacesMoved": 0,
-    "deaths": 0,
-    "seconds": 4.183143615722656,
-    "minutes": 2.0,
-    "hours": 0.0
+    "savingData": {
+        "spacesMoved": 0,
+        "deaths": 0,
+        "seconds": 17.503494262695314,
+        "minutes": 0.0,
+        "hours": 0.0
+    },
+    "predictingStats": {
+        "challengeSkillBalance": 0,
+        "actionAwarenessMerging": 0,
+        "clearGoals": 0,
+        "unamibguousFeedback": 0,
+        "totalConcentration": 0,
+        "lossOfSelfConsciousness": 0,
+        "transformationOfTime": 0
+    }
 }
