@@ -13,19 +13,19 @@ public class GameManager : MonoBehaviour
         {
             this.GetComponent<CreateGrid>().enabled = true;
             this.GetComponent<CharacterMovement>().enabled = true;
-            this.GetComponent<SaveLoadMaps>().enabled = true;
             this.GetComponent<RoomManager>().enabled = true;
             this.GetComponent<CameraMovement>().enabled = true;
             this.GetComponent<DataCollection>().enabled = true;
+            this.GetComponent<SaveLoadMaps>().enabled = true;
         }
         else
         {
             this.GetComponent<CreateGrid>().enabled = false;
             this.GetComponent<CharacterMovement>().enabled = false;
-            this.GetComponent<SaveLoadMaps>().enabled = false;
             this.GetComponent<RoomManager>().enabled = false;
             this.GetComponent<CameraMovement>().enabled = false;
             this.GetComponent<DataCollection>().enabled = false;
+            this.GetComponent<SaveLoadMaps>().enabled = false;
         }
 
         //if (newTurn)

@@ -1,0 +1,20 @@
+{
+    "savingData": {
+        "roomID": 1,
+        "roomsCleared": 0,
+        "spacesMoved": 71,
+        "deaths": 3,
+        "seconds": 52.7640495300293,
+        "minutes": 0.0,
+        "hours": 0.0
+    },
+    "predictingStats": {
+        "challengeSkillBalance": 3,
+        "actionAwarenessMerging": 0,
+        "clearGoals": 1,
+        "unambiguousFeedback": 0,
+        "totalConcentration": 0,
+        "lossOfSelfConsciousness": 1,
+        "transformationOfTime": 0
+    }
+}

@@ -16,6 +16,14 @@ public class CreateGrid : MonoBehaviour
     [Range(5, 30)]
     public int gridDepth = 0;
     public Vector2 playerStartCoords;
+    [Header("Level Flow Stats")]
+    [Range(1, 5)]
+    public int assignedChallengeSkillBalance;
+    [Range(1, 5)]
+    public int assignedClearGoals;
+    [Range(1, 5)]
+    public int assignedLossOfSelfConsciousness;
+
     [HideInInspector] public int gridSize = 0;
 
     [HideInInspector] public float gridDistance= 5f;

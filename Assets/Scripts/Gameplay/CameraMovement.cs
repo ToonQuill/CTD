@@ -22,8 +22,8 @@ public class CameraMovement : MonoBehaviour
 
     [HideInInspector] public bool movedSpace = false;
 
-    Vector3 originCameraLocation;
-    Vector3 newCameraLocation;
+    public Vector3 originCameraLocation;
+    public Vector3 newCameraLocation;
 
     public bool cameraAssigned = false;
     public bool cameraIsMoving = false;

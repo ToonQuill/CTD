@@ -1,0 +1,1223 @@
+{
+    "gridDepth": 11,
+    "gridWidth": 11,
+    "playerStartCoords": {
+        "x": 5.0,
+        "y": 8.0
+    },
+    "assignedChallengeSkillBalance": 1,
+    "assignedClearGoals": 1,
+    "assignedLossOfSelfConsciousness": 1,
+    "iTD": [
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 1,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 1,
+            "switchTransformInto": 13
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 1,
+            "switchTransformInto": 13
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Transition",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 1,
+            "switchTransformInto": 13
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 1,
+            "switchTransformInto": 13
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 1,
+            "switchTransformInto": 13
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Switch",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 1,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 1,
+            "switchTransformInto": 13
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 1,
+            "switchTransformInto": 13
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Unassigned",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        },
+        {
+            "tileID": "Air",
+            "warpCords": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "switchNumber": 0,
+            "switchNumberEffect": 0,
+            "switchTransformInto": 0
+        }
+    ]
+}

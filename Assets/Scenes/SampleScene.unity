@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Put Title Here
+  m_text: CTD Project
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -309,7 +309,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 708130f7987023b4f93bd1100f0c1143, type: 2}
+  - {fileID: 2100000, guid: fb39ce8f543fa9d44acb799657d01f84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -821,7 +821,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.60876137, y: 0, z: 0, w: 0.7933534}
-  m_LocalPosition: {x: 20, y: 50, z: 7.5}
+  m_LocalPosition: {x: 50, y: 50, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1213,7 +1213,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Put instructions here
+  m_text: 'This is a small game intended to aid research in measuring gameplay preferences
+    through user engagement.
+
+
+    Use WASD to move and play through the game to
+    the best of your ability!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1329,10 +1334,12 @@ MonoBehaviour:
   defaultTile: {fileID: 999766790289108929, guid: 55d301deb0d53eb419e55a0f7bee2e73, type: 3}
   wallTile: {fileID: 4022648359831391372, guid: 8c7d73bf43afc324eb57ca5205607599, type: 3}
   switchTile: {fileID: 8221581670089935210, guid: 65854dad63bd2e749a9c32eed317f693, type: 3}
-  gridWidth: 5
-  gridDepth: 5
-  playerStartWidth: 0
-  playerStartDepth: 0
+  gridWidth: 25
+  gridDepth: 25
+  playerStartCoords: {x: 0, y: 0}
+  assignedChallengeSkillBalance: 0
+  assignedClearGoals: 0
+  assignedLossOfSelfConsciousness: 0
   gridSize: 0
   gridDistance: 5
   instantiatedTiles: 0
@@ -1369,6 +1376,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 6247436613304499994, guid: 3c93159208bb72343b8256c5986218c5, type: 3}
+  currentLocation: {fileID: 0}
+  newLocation: {fileID: 0}
   newLocationVector: {x: 0, y: 0, z: 0}
   playerAlive: 1
   playerPlaced: 0
@@ -1433,21 +1442,41 @@ MonoBehaviour:
     switchNumberEffect: 0
     switchTransformInto: 0
   searchingForRoomPredictedStatsData:
-    challengeSkillBalance: 0
-    actionAwarenessMerging: 0
-    clearGoals: 0
-    unambiguousFeedback: 0
-    totalConcentration: 0
-    lossOfSelfConsciousness: 0
-    transformationOfTime: 0
+    savingData:
+      roomID: 0
+      roomsCleared: 0
+      spacesMoved: 0
+      deaths: 0
+      seconds: 0
+      minutes: 0
+      hours: 0
+    predictingStats:
+      challengeSkillBalance: 0
+      actionAwarenessMerging: 0
+      clearGoals: 0
+      unambiguousFeedback: 0
+      totalConcentration: 0
+      lossOfSelfConsciousness: 0
+      transformationOfTime: 0
   searchingForTotalPredictedStatsData:
-    challengeSkillBalance: 0
-    actionAwarenessMerging: 0
-    clearGoals: 0
-    unambiguousFeedback: 0
-    totalConcentration: 0
-    lossOfSelfConsciousness: 0
-    transformationOfTime: 0
+    savingData:
+      roomID: 0
+      roomsCleared: 0
+      spacesMoved: 0
+      deaths: 0
+      seconds: 0
+      minutes: 0
+      hours: 0
+    predictingStats:
+      challengeSkillBalance: 0
+      actionAwarenessMerging: 0
+      clearGoals: 0
+      unambiguousFeedback: 0
+      totalConcentration: 0
+      lossOfSelfConsciousness: 0
+      transformationOfTime: 0
+  spawnLocation: {x: 0, y: 0, z: 0}
+  levelToBeLoaded: 0
 --- !u!114 &2082123868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1483,6 +1512,8 @@ MonoBehaviour:
   newZ: 0
   currentGridCords: {x: 0, y: 0}
   movedSpace: 0
+  originCameraLocation: {x: 0, y: 0, z: 0}
+  newCameraLocation: {x: 0, y: 0, z: 0}
   cameraAssigned: 0
   cameraIsMoving: 0
   freezeMovement: 0
@@ -1529,6 +1560,7 @@ MonoBehaviour:
   transformationOfTime: 0
   totalAllTheStatistics:
     savingData:
+      roomID: 0
       roomsCleared: 0
       spacesMoved: 0
       deaths: 0
@@ -1544,6 +1576,7 @@ MonoBehaviour:
       lossOfSelfConsciousness: 0
       transformationOfTime: 0
   totalSavedData:
+    roomID: 0
     roomsCleared: 0
     spacesMoved: 0
     deaths: 0
@@ -1560,6 +1593,7 @@ MonoBehaviour:
     transformationOfTime: 0
   roomAllTheStatistics:
     savingData:
+      roomID: 0
       roomsCleared: 0
       spacesMoved: 0
       deaths: 0
@@ -1575,6 +1609,7 @@ MonoBehaviour:
       lossOfSelfConsciousness: 0
       transformationOfTime: 0
   roomSavedData:
+    roomID: 0
     roomsCleared: 0
     spacesMoved: 0
     deaths: 0
@@ -1592,3 +1627,4 @@ MonoBehaviour:
   roomSpacesMoved: 0
   roomDeaths: 0
   debugSave: 0
+  saveManager: {fileID: 0}

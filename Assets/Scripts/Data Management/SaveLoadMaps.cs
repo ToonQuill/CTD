@@ -23,7 +23,10 @@ public class SaveLoadMaps : MonoBehaviour
     {
         public int gridDepth;
         public int gridWidth;
-        public Vector2 playerStartCoords; 
+        public Vector2 playerStartCoords;
+        public int assignedChallengeSkillBalance;
+        public int assignedClearGoals;
+        public int assignedLossOfSelfConsciousness;
         public List<individualTileData> iTD = new List<individualTileData>(550);
     }
 
@@ -42,6 +45,8 @@ public class SaveLoadMaps : MonoBehaviour
     private CreateGrid createdGrid;
     private DataCollection dataCollection;
     private CharacterMovement characterManager;
+    private CameraMovement cameraManager;
+    private RoomManager roomManager;
 
     private int gridDepth, gridWidth;
 
@@ -54,8 +59,12 @@ public class SaveLoadMaps : MonoBehaviour
     private string searchingForTotalPredictedStats;
     private int searchingForLevelValue = 2;
     public savedLevelData searchingForLevelData = new savedLevelData();
-    public predictedStats searchingForRoomPredictedStatsData = new predictedStats();
-    public predictedStats searchingForTotalPredictedStatsData = new predictedStats();
+    public allTheStatistics searchingForRoomPredictedStatsData = new allTheStatistics();
+    public allTheStatistics searchingForTotalPredictedStatsData = new allTheStatistics();
+
+    public Vector3 spawnLocation;
+
+    public int levelToBeLoaded;
 
     void Start()
     {
@@ -70,6 +79,8 @@ public class SaveLoadMaps : MonoBehaviour
         createdGrid = this.GetComponent<CreateGrid>();
         dataCollection = this.GetComponent<DataCollection>();
         characterManager = this.GetComponent<CharacterMovement>();
+        cameraManager = this.GetComponent<CameraMovement>();
+        roomManager = this.GetComponent<RoomManager>();
         gridDepth = createdGrid.gridDepth;
         gridWidth = createdGrid.gridWidth;
     }
@@ -95,19 +106,19 @@ public class SaveLoadMaps : MonoBehaviour
         {
             json = File.ReadAllText(inputtedLevel);
             savedLevel = JsonUtility.FromJson<savedLevelData>(json);
+
             createdGrid.gridDepth = savedLevel.gridDepth;
             createdGrid.gridWidth = savedLevel.gridWidth;
+            createdGrid.initTiles();
+
             characterManager.playerLocation = savedLevel.playerStartCoords;
             characterManager.playerLocationGoing = savedLevel.playerStartCoords;
-            for (int i = 0; i < createdGrid.gridSize; i++)
-            {
-                if (createdGrid.tileData.storedCoordinates[i] == characterManager.playerLocation)
-                {
-                    Vector3 spawnLocation = createdGrid.tileData.storedGameObjects[i].transform.position;
-                    characterManager.player.transform.position = new Vector3(spawnLocation.x, spawnLocation.y + 5f, spawnLocation.z);
-                }
-            }
-            createdGrid.initTiles();
+            characterManager.initPlayer();
+
+            cameraManager.newCameraLocation = characterManager.newLocationVector;
+            cameraManager.assignedCamera.transform.position = new Vector3(cameraManager.newCameraLocation.x, 
+                cameraManager.newCameraLocation.y + 50f,cameraManager.newCameraLocation.z);
+
             for (int i = 0; i < createdGrid.tileData.storedGameObjects.Length; i++)
             {
                 iTM = createdGrid.tileData.storedGameObjects[i].GetComponent<IndividualTileManager>();
@@ -148,6 +159,9 @@ public class SaveLoadMaps : MonoBehaviour
         savedLevel.gridDepth = createdGrid.gridDepth;
         savedLevel.gridWidth = createdGrid.gridWidth;
         savedLevel.playerStartCoords = createdGrid.playerStartCoords;
+        savedLevel.assignedChallengeSkillBalance = createdGrid.assignedChallengeSkillBalance;
+        savedLevel.assignedClearGoals = createdGrid.assignedClearGoals;
+        savedLevel.assignedLossOfSelfConsciousness = createdGrid.assignedLossOfSelfConsciousness;
         foreach (Transform child in transform)
         {
             chosenMapData = new individualTileData();
@@ -180,7 +194,7 @@ public class SaveLoadMaps : MonoBehaviour
         }
         return false;
     }
-    private void DecideWhatLevelToLoad()
+    public void DecideWhatLevelToLoad()
     {
         dataPath = System.IO.Directory.GetCurrentDirectory() + "/Assets/SavedData/";
 
@@ -191,32 +205,51 @@ public class SaveLoadMaps : MonoBehaviour
         //searchingForTotalPredictedStatsData = JsonUtility.FromJson<predictedStats>(json);
 
         //retrive room stats data
-        searchingForRoomPredictedStats = dataPath + "Playthrough " + dataCollection.saveNumber + "Room " + dataCollection.roomNumber + ".json";
-        searchingForRoomPredictedStatsData = new predictedStats();
+        searchingForRoomPredictedStats = dataPath + "Playthrough " + dataCollection.saveNumber + " Room " + dataCollection.roomNumber + ".json";
+        searchingForRoomPredictedStatsData = new allTheStatistics();
         json = File.ReadAllText(searchingForRoomPredictedStats);
-        searchingForRoomPredictedStatsData = JsonUtility.FromJson<predictedStats>(json);
+        searchingForRoomPredictedStatsData = JsonUtility.FromJson<allTheStatistics>(json);
+        Debug.Log(dataPath + "Playthrough " + dataCollection.saveNumber + " Room " + dataCollection.roomNumber + ".json");
 
         //use statistics to decide what level to load
         dataPath = System.IO.Directory.GetCurrentDirectory() + "/Assets/SavedRooms/";
-        searchingForLevel = dataPath + "Room " + searchingForLevelValue + ".json";
-        if (File.Exists(searchingForLevel))
+        for (int l = 1; l < 37; l++)
         {
-            searchingForLevelData = new savedLevelData();
-            json = File.ReadAllText(searchingForLevel);
-            searchingForLevelData = JsonUtility.FromJson<savedLevelData>(json);
-            for (int a = 0; a < 5; a++)
+            searchingForLevel = dataPath + "Room " + l + ".json";
+            if (File.Exists(searchingForLevel))
             {
-                if (a == searchingForRoomPredictedStatsData.challengeSkillBalance)
+                searchingForLevelData = new savedLevelData();
+                json = File.ReadAllText(searchingForLevel);
+                searchingForLevelData = JsonUtility.FromJson<savedLevelData>(json);
+                Debug.Log("Checking Level " + l);
+                Debug.Log("Expected Level: " + searchingForRoomPredictedStatsData.predictingStats.challengeSkillBalance
+                    + " " + searchingForRoomPredictedStatsData.predictingStats.clearGoals
+                    + " " + searchingForRoomPredictedStatsData.predictingStats.lossOfSelfConsciousness);
+                for (int a = 0; a < 6; a++)
                 {
-                    for (int b = 0; b < 5; b++)
+                    //Debug.Log(a + " " + searchingForRoomPredictedStatsData.predictingStats.challengeSkillBalance 
+                    //    + " " + searchingForLevelData.assignedChallengeSkillBalance
+                    //    + " " + searchingForLevelData.assignedClearGoals
+                    //    + " " + searchingForLevelData.assignedLossOfSelfConsciousness);
+                    if (a == searchingForRoomPredictedStatsData.predictingStats.challengeSkillBalance && 
+                        a == searchingForLevelData.assignedChallengeSkillBalance)
                     {
-                        if (b == searchingForRoomPredictedStatsData.clearGoals)
+                        for (int b = 0; b < 6; b++)
                         {
-                            for (int c = 0; c < 5; c++)
+                            if (b == searchingForRoomPredictedStatsData.predictingStats.clearGoals && 
+                                b == searchingForLevelData.assignedClearGoals)
                             {
-                                if (c == searchingForRoomPredictedStatsData.lossOfSelfConsciousness)
+                                for (int c = 0; c < 6; c++)
                                 {
-                                    //this level is good
+                                    if (c == searchingForRoomPredictedStatsData.predictingStats.lossOfSelfConsciousness && 
+                                        c == searchingForLevelData.assignedLossOfSelfConsciousness)
+                                    {
+                                        //this level is good
+                                        levelToBeLoaded = l;
+                                        roomManager.currentlyTransistioning = false;
+                                        dataCollection.roomNumber++;
+                                        Debug.Log("Loading Level " + levelToBeLoaded);
+                                    }
                                 }
                             }
                         }
@@ -224,5 +257,6 @@ public class SaveLoadMaps : MonoBehaviour
                 }
             }
         }
+       
     }
 }

@@ -6,7 +6,7 @@ public class CharacterMovement : MonoBehaviour
 {
 
     public GameObject player;
-    private GameObject currentLocation, newLocation;
+    public GameObject currentLocation, newLocation;
     public Vector3 newLocationVector;
 
     public bool playerAlive = true;
@@ -34,10 +34,10 @@ public class CharacterMovement : MonoBehaviour
         cameraManager = this.GetComponent<CameraMovement>();
         dataCollection = this.GetComponent<DataCollection>();
     }
-    private void initPlayer()
+    public void initPlayer()
     {
-        player = Instantiate(player);
-        playerLocation = new Vector2(grid.gridWidth / 2, grid.gridDepth / 2);
+        if (!player.scene.IsValid()) { player = Instantiate(player); }
+        if (playerLocation == null) { playerLocation = new Vector2(grid.gridWidth / 2, grid.gridDepth / 2); }
         playerLocationGoing = playerLocation;
         for (int i = 0; i < grid.gridSize; i++)
         {
@@ -78,22 +78,22 @@ public class CharacterMovement : MonoBehaviour
 
     private void inputManager()
     {
-        if (Input.GetKey(KeyCode.UpArrow) && playerAlive)
+        if ((Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && playerAlive)
         {
             playerLocationGoing = new Vector2(playerLocationGoing.x, playerLocationGoing.y + 1);
             updatePlayerCoordinates();
         }
-        if (Input.GetKey(KeyCode.DownArrow) && playerAlive)
+        if ((Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) && playerAlive)
         {
             playerLocationGoing = new Vector2(playerLocationGoing.x, playerLocationGoing.y - 1);
             updatePlayerCoordinates();
         }
-        if (Input.GetKey(KeyCode.LeftArrow) && playerAlive)
+        if ((Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) && playerAlive)
         {
             playerLocationGoing = new Vector2(playerLocationGoing.x - 1, playerLocationGoing.y);
             updatePlayerCoordinates();
         }
-        if (Input.GetKey(KeyCode.RightArrow) && playerAlive)
+        if ((Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) && playerAlive)
         {
             playerLocationGoing = new Vector2(playerLocationGoing.x + 1, playerLocationGoing.y);
             updatePlayerCoordinates();
@@ -166,6 +166,7 @@ public class CharacterMovement : MonoBehaviour
             roomManager.checkSpace();
             roomManager.currentlyTransistioning = false;
             dataCollection.roomSpacesMoved++;
+            roomManager.checkForTransition();
         }
     }
     private void characterMovementInfluencingTiles()

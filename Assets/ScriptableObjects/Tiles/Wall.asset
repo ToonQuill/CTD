@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wall
   m_EditorClassIdentifier: 
   tileName: Wall
-  tileMaterial: {fileID: 2100000, guid: 708130f7987023b4f93bd1100f0c1143, type: 2}
+  tileMaterial: {fileID: 2100000, guid: fb39ce8f543fa9d44acb799657d01f84, type: 2}
   Passable: 0
   Invisible: 0
   RespawnPoint: 0

@@ -40,39 +40,38 @@ public class RoomManager : MonoBehaviour
             {
                 iTM = grid.tileData.storedGameObjects[i].GetComponent<IndividualTileManager>();
                 //all space/character intersections here
-                checkForUnavailableSpace();
-                checkForSwitchSpace();
-                if (characterManager.playerAlive) { checkForTransition(); }
+                if (!currentlyTransistioning) { checkForUnavailableSpace(); }
+                if (!currentlyTransistioning) { checkForSwitchSpace(); }
             }
         }
     }
-    private void checkForTransition()
+    public void checkForTransition()
     {
         if (iTM.tileData.Transition == true)
         {
             currentlyTransistioning = true;
             //has a transition been set yet?
-            if (iTM.warpCords == new Vector2(0, 0))
-            {
-                //time to make a new room!
-                //...and use all the accumulated data, too!
+            //old stuff
 
-                //first, make sure the transitioner knows what room to go from this point onwards
-                iTM.warpCords = new Vector2(currentRoom, currentRoom + 1);
-                //next, save the current room
-                savingManager.SaveLevelData(currentRoom);
+            //time to make a new room!
+            //...and use all the accumulated data, too!
 
-                grid.resetGrid();
-                grid.initTiles();
-                currentRoom = currentRoom + 1;
-                //savingManager.SaveLevelData(currentRoom);
-            }
-            else
-            {
-                int chosenRoom = (int)iTM.warpCords.y;
-                savingManager.LoadLevelData(chosenRoom);
-                currentRoom = chosenRoom;
-            }
+            //first, make sure the transitioner knows what room to go from this point onwards
+            //iTM.warpCords = new Vector2(currentRoom, currentRoom + 1);
+            //next, save the current room
+            //savingManager.SaveLevelData(currentRoom);
+
+            //grid.resetGrid();
+            //grid.initTiles();
+            //currentRoom = currentRoom + 1;
+            //savingManager.SaveLevelData(currentRoom);
+
+            dataCollection.SaveData(currentRoom);
+            savingManager.DecideWhatLevelToLoad();
+            int chosenRoom = savingManager.levelToBeLoaded;
+            savingManager.LoadLevelData(chosenRoom);
+            currentRoom++;
+            return;
         }
     }
     private void checkForUnavailableSpace()

@@ -9,6 +9,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 [System.Serializable]
 public class savedData
 {
+    public int roomID;
     public int roomsCleared;
     public int spacesMoved;
     public int deaths;
@@ -73,9 +74,12 @@ public class DataCollection : MonoBehaviour
 
     public bool debugSave = false;
 
+    public SaveLoadMaps saveManager;
+
     void Start()
     {
         dataPath = System.IO.Directory.GetCurrentDirectory() + "/Assets/SavedData/";
+        saveManager = this.GetComponent<SaveLoadMaps>();
         saveNumber = 1;
         roomNumber = 1;
     }
@@ -148,6 +152,7 @@ public class DataCollection : MonoBehaviour
 
         savedDataLocation = dataPath + "Playthrough " + saveNumber + " Room " + roomNumber + ".json";
         savedData roomSavedData = new savedData();
+        roomSavedData.roomID = saveManager.selectedMap;
         roomSavedData.spacesMoved = roomSpacesMoved;
         roomSavedData.deaths = roomDeaths;
         roomSavedData.hours = roomHours;
@@ -219,23 +224,23 @@ public class DataCollection : MonoBehaviour
     private void predictChallengeSkillBalance()
     {
         challengeSkillBalance = roomSpacesMoved * roomDeaths;
-        if (challengeSkillBalance > 400)
+        if (challengeSkillBalance > 60)
         {
             challengeSkillBalance = 1;
         }
-        else if (challengeSkillBalance > 300 && challengeSkillBalance < 400)
+        else if (challengeSkillBalance > 40 && challengeSkillBalance < 60)
         {
             challengeSkillBalance = 2;
         }
-        else if(challengeSkillBalance > 200 && challengeSkillBalance < 300)
+        else if(challengeSkillBalance > 25 && challengeSkillBalance < 40)
         {
             challengeSkillBalance = 3;
         }
-        else if(challengeSkillBalance > 100 && challengeSkillBalance < 200)
+        else if(challengeSkillBalance > 15 && challengeSkillBalance < 25)
         {
             challengeSkillBalance = 4;
         }
-        else if(challengeSkillBalance < 100)
+        else if(challengeSkillBalance < 15)
         {
             challengeSkillBalance = 5;
         }
@@ -244,27 +249,31 @@ public class DataCollection : MonoBehaviour
     {
         if (totalRoomsCleared > 1)
         {
-            clearGoals = (totalSpacesMoved / totalRoomsCleared);
-            if (roomSpacesMoved > clearGoals + (3 * totalRoomsCleared))
+            clearGoals = totalRoomsCleared;
+            if (totalRoomsCleared < 3)
             {
                 clearGoals = 1;
             }
-            if (roomSpacesMoved > clearGoals + (2 * totalRoomsCleared) && roomSpacesMoved < clearGoals + (3 * totalRoomsCleared))
-            {
-                clearGoals = 2;
-            }
-            if (roomSpacesMoved > clearGoals + totalRoomsCleared && roomSpacesMoved < clearGoals + (2 * totalRoomsCleared))
+            //if (roomSpacesMoved > clearGoals + (2 * totalRoomsCleared) && roomSpacesMoved < clearGoals + (3 * totalRoomsCleared))
+            //{
+            //    clearGoals = 2;
+            //}
+            if (totalRoomsCleared > 3 && totalRoomsCleared < 6)
             {
                 clearGoals = 3;
             }
-            if (roomSpacesMoved < clearGoals + totalRoomsCleared)
-            {
-                clearGoals = 4;
-            }
-            if (roomSpacesMoved < clearGoals)
+            //if (roomSpacesMoved < clearGoals + totalRoomsCleared)
+            //{
+            //    clearGoals = 4;
+            //}
+            if (totalRoomsCleared > 6)
             {
                 clearGoals = 5;
             }
+        }
+        else
+        {
+            clearGoals = 1;
         }
     }
     private void predictLossOfSelfConsciousness()
@@ -274,23 +283,23 @@ public class DataCollection : MonoBehaviour
         convertMinsToInt = convertMinsToInt * 100;
         convertSecsToInt = (convertSecsToInt * 166) / 100;
         decimal totalTime = convertMinsToInt + convertSecsToInt;
-        if (totalTime > 200)
+        if (totalTime > 60)
         {
             lossOfSelfConsciousness = 1;
         }
-        if (totalTime < 200 && totalTime > 150)
-        {
-            lossOfSelfConsciousness = 2;
-        }
-        if (totalTime < 150 && totalTime > 100)
+        //if (totalTime < 50 && totalTime > 40)
+        //{
+        //    lossOfSelfConsciousness = 2;
+        //}
+        if (totalTime < 60 && totalTime > 15)
         {
             lossOfSelfConsciousness = 3;
         }
-        if (totalTime < 100 && totalTime > 50)
-        {
-            lossOfSelfConsciousness = 4;
-        }
-        if (totalTime < 50)
+        //if (totalTime < 30 && totalTime > 20)
+        //{
+        //    lossOfSelfConsciousness = 4;
+        //}
+        if (totalTime < 15)
         {
             lossOfSelfConsciousness = 5;
         }
