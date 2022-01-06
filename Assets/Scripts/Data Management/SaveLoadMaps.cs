@@ -213,7 +213,7 @@ public class SaveLoadMaps : MonoBehaviour
 
         //use statistics to decide what level to load
         dataPath = System.IO.Directory.GetCurrentDirectory() + "/Assets/SavedRooms/";
-        for (int l = 1; l < 37; l++)
+        for (int l = 1; l < 47; l++)
         {
             searchingForLevel = dataPath + "Room " + l + ".json";
             if (File.Exists(searchingForLevel))

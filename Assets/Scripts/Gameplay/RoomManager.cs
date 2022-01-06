@@ -11,6 +11,7 @@ public class RoomManager : MonoBehaviour
     private TileDatabase tileDatabase;
     private SaveLoadMaps savingManager;
     private DataCollection dataCollection;
+    public MenuManager menuManager;
 
     private int currentRoom = 1;
     public bool currentlyTransistioning = false;
@@ -28,10 +29,6 @@ public class RoomManager : MonoBehaviour
         dataCollection = this.GetComponent<DataCollection>();
         dataPath = System.IO.Directory.GetCurrentDirectory() + "/Assets/SavedRooms/";
     }
-    void Update()
-    {
-
-    }
     public void checkSpace()
     {
         for (int i = 0; i < grid.gridSize; i++)
@@ -42,6 +39,7 @@ public class RoomManager : MonoBehaviour
                 //all space/character intersections here
                 if (!currentlyTransistioning) { checkForUnavailableSpace(); }
                 if (!currentlyTransistioning) { checkForSwitchSpace(); }
+                if (!currentlyTransistioning) { checkForSpecialSpace(); }
             }
         }
     }
@@ -67,10 +65,24 @@ public class RoomManager : MonoBehaviour
             //savingManager.SaveLevelData(currentRoom);
 
             dataCollection.SaveData(currentRoom);
-            savingManager.DecideWhatLevelToLoad();
-            int chosenRoom = savingManager.levelToBeLoaded;
-            savingManager.LoadLevelData(chosenRoom);
-            currentRoom++;
+            if (currentRoom == 36 && dataCollection.challengeSkillBalance == 5 && dataCollection.clearGoals == 5 && dataCollection.lossOfSelfConsciousness == 5)
+            {
+                savingManager.LoadLevelData(0);
+                menuManager.menus[1].SetActive(true);
+            }
+            else if (dataCollection.totalRoomsCleared < 15 || dataCollection.totalMinutes > 10)
+            {
+                savingManager.DecideWhatLevelToLoad();
+                int chosenRoom = savingManager.levelToBeLoaded;
+                savingManager.LoadLevelData(chosenRoom);
+                currentRoom++;
+            }
+            else
+            {
+                //show ui saying they can quit game now with quit button App.Quit
+                savingManager.LoadLevelData(0);
+                menuManager.menus[1].SetActive(true);
+            }
             return;
         }
     }
@@ -99,6 +111,13 @@ public class RoomManager : MonoBehaviour
                     iTM.tileData = tileDatabase.allTileTypes[iTM.switchTransformInto];
                 }
             }
+        }
+    }
+    private void checkForSpecialSpace()
+    {
+        if (iTM.currentTileData.Switch == true || iTM.currentTileData.descendingTile == true)
+        {
+            dataCollection.roomSpecialSpacesMoved++;
         }
     }
 }

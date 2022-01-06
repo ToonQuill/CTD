@@ -1030,7 +1030,7 @@
             "switchTransformInto": 9
         },
         {
-            "tileID": "Air",
+            "tileID": "Unassigned",
             "warpCords": {
                 "x": 0.0,
                 "y": 0.0

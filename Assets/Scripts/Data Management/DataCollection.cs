@@ -12,6 +12,7 @@ public class savedData
     public int roomID;
     public int roomsCleared;
     public int spacesMoved;
+    public int specialSpacesMoved;
     public int deaths;
     public float seconds;
     public float minutes;
@@ -67,12 +68,16 @@ public class DataCollection : MonoBehaviour
     public predictedStats roomPredictedStats = new predictedStats();
 
     private int totalSpacesMoved = 0;
+    private int totalSpecialSpacesMoved = 0;
     private int totalDeaths = 0;
-    private int totalRoomsCleared = 0;
+    public int totalRoomsCleared = 0;
     public int roomSpacesMoved = 0;
+    public int roomSpecialSpacesMoved = 0;
     public int roomDeaths = 0;
 
     public bool debugSave = false;
+
+    decimal totalTime;
 
     public SaveLoadMaps saveManager;
 
@@ -154,6 +159,7 @@ public class DataCollection : MonoBehaviour
         savedData roomSavedData = new savedData();
         roomSavedData.roomID = saveManager.selectedMap;
         roomSavedData.spacesMoved = roomSpacesMoved;
+        roomSavedData.specialSpacesMoved = roomSpecialSpacesMoved;
         roomSavedData.deaths = roomDeaths;
         roomSavedData.hours = roomHours;
         roomSavedData.minutes = roomMinutes;
@@ -193,6 +199,7 @@ public class DataCollection : MonoBehaviour
     {
         totalDeaths = totalDeaths + roomDeaths;
         totalSpacesMoved = totalSpacesMoved + roomSpacesMoved;
+        totalSpecialSpacesMoved = totalSpecialSpacesMoved + roomSpecialSpacesMoved;
         totalSeconds = totalSeconds + roomSeconds;
         totalMinutes = totalMinutes + roomMinutes;
         totalHours = totalHours = roomHours;
@@ -220,29 +227,46 @@ public class DataCollection : MonoBehaviour
         predictChallengeSkillBalance();
         predictClearGoals();
         predictLossOfSelfConsciousness();
+
+        predictActionAwarenessMerging();
+        predictUnambiguousFeedback();
+        predictTotalConcentration();
+        predictTransformationOfTime();
     }
     private void predictChallengeSkillBalance()
     {
-        challengeSkillBalance = roomSpacesMoved * roomDeaths;
-        if (challengeSkillBalance > 60)
+        int decideChallengeSkillBalance = roomSpacesMoved * roomDeaths;
+        if (challengeSkillBalance == 0)
         {
             challengeSkillBalance = 1;
         }
-        else if (challengeSkillBalance > 40 && challengeSkillBalance < 60)
+        if (decideChallengeSkillBalance > 90 && challengeSkillBalance >= 3)
         {
-            challengeSkillBalance = 2;
+            challengeSkillBalance = challengeSkillBalance - 2;
         }
-        else if(challengeSkillBalance > 25 && challengeSkillBalance < 40)
+        else if (decideChallengeSkillBalance > 90 && challengeSkillBalance >= 2)
         {
-            challengeSkillBalance = 3;
+            challengeSkillBalance--;
         }
-        else if(challengeSkillBalance > 15 && challengeSkillBalance < 25)
+        if (decideChallengeSkillBalance > 60 && decideChallengeSkillBalance < 90 && challengeSkillBalance >= 2)
         {
-            challengeSkillBalance = 4;
+            challengeSkillBalance--;
         }
-        else if(challengeSkillBalance < 15)
+        //else if(challengeSkillBalance > 25 && challengeSkillBalance < 40)
+        //{
+        //    challengeSkillBalance = 3;
+        //}
+        if (decideChallengeSkillBalance > 20 && decideChallengeSkillBalance < 60 && challengeSkillBalance < 5)
         {
-            challengeSkillBalance = 5;
+            challengeSkillBalance++;
+        }
+        if (decideChallengeSkillBalance < 20 && challengeSkillBalance < 4)
+        {
+            challengeSkillBalance = challengeSkillBalance + 2;
+        }
+        else if (decideChallengeSkillBalance < 20 && challengeSkillBalance == 4)
+        {
+            challengeSkillBalance++;
         }
     }
     private void predictClearGoals()
@@ -250,7 +274,7 @@ public class DataCollection : MonoBehaviour
         if (totalRoomsCleared > 1)
         {
             clearGoals = totalRoomsCleared;
-            if (totalRoomsCleared < 3)
+            if (totalRoomsCleared < 5)
             {
                 clearGoals = 1;
             }
@@ -258,7 +282,7 @@ public class DataCollection : MonoBehaviour
             //{
             //    clearGoals = 2;
             //}
-            if (totalRoomsCleared > 3 && totalRoomsCleared < 6)
+            if (totalRoomsCleared >= 5 && totalRoomsCleared < 10)
             {
                 clearGoals = 3;
             }
@@ -266,7 +290,7 @@ public class DataCollection : MonoBehaviour
             //{
             //    clearGoals = 4;
             //}
-            if (totalRoomsCleared > 6)
+            if (totalRoomsCleared >= 10)
             {
                 clearGoals = 5;
             }
@@ -282,26 +306,123 @@ public class DataCollection : MonoBehaviour
         decimal convertSecsToInt = (decimal)roomSeconds;
         convertMinsToInt = convertMinsToInt * 100;
         convertSecsToInt = (convertSecsToInt * 166) / 100;
-        decimal totalTime = convertMinsToInt + convertSecsToInt;
-        if (totalTime > 60)
+        totalTime = convertMinsToInt + convertSecsToInt;
+        if (lossOfSelfConsciousness == 0)
         {
             lossOfSelfConsciousness = 1;
+        }
+        if (totalTime > challengeSkillBalance * 10 && lossOfSelfConsciousness != 1)
+        {
+            lossOfSelfConsciousness = lossOfSelfConsciousness - 2;
         }
         //if (totalTime < 50 && totalTime > 40)
         //{
         //    lossOfSelfConsciousness = 2;
         //}
-        if (totalTime < 60 && totalTime > 15)
-        {
-            lossOfSelfConsciousness = 3;
-        }
+        //if (totalTime < 30 && totalTime > 15)
+        //{
+        //    lossOfSelfConsciousness = 3;
+        //}
         //if (totalTime < 30 && totalTime > 20)
         //{
         //    lossOfSelfConsciousness = 4;
         //}
-        if (totalTime < 15)
+        if (totalTime < challengeSkillBalance * 7 && lossOfSelfConsciousness < 5)
         {
-            lossOfSelfConsciousness = 5;
+            lossOfSelfConsciousness = lossOfSelfConsciousness + 2;
+        }
+    }
+    private void predictActionAwarenessMerging()
+    {
+        decimal actionAwarenessMergingPrediction = totalTime * roomDeaths;
+        if (actionAwarenessMergingPrediction > 500)
+        {
+            actionAwarenessMerging = 1;
+        }
+        if (actionAwarenessMerging > 400 && actionAwarenessMerging < 500)
+        {
+            actionAwarenessMerging = 2;
+        }
+        if (actionAwarenessMerging > 300 && actionAwarenessMerging < 400)
+        {
+            actionAwarenessMerging = 3;
+        }
+        if (actionAwarenessMerging > 200 && actionAwarenessMerging < 300)
+        {
+            actionAwarenessMerging = 4;
+        }
+        if (actionAwarenessMerging < 200)
+        {
+            actionAwarenessMerging = 5;
+        }
+    }
+    private void predictUnambiguousFeedback()
+    {
+        if (totalSpecialSpacesMoved < 100)
+        {
+            unambiguousFeedback = 1;
+        }
+        if (totalSpecialSpacesMoved > 100 && totalSpecialSpacesMoved < 200)
+        {
+            unambiguousFeedback = 2;
+        }
+        if (totalSpecialSpacesMoved > 200 && totalSpecialSpacesMoved < 300)
+        {
+            unambiguousFeedback = 3;
+        }
+        if (totalSpecialSpacesMoved > 300 && totalSpecialSpacesMoved < 400)
+        {
+            unambiguousFeedback = 4;
+        }
+        if (totalSpecialSpacesMoved > 400)
+        {
+            unambiguousFeedback = 5;
+        }
+    }
+    private void predictTotalConcentration()
+    {
+        if (totalRoomsCleared < 5)
+        {
+            totalConcentration = 1;
+        }
+        if (totalRoomsCleared > 5 && totalRoomsCleared < 8)
+        {
+            totalConcentration = 2;
+        }
+        if (totalRoomsCleared > 8 && totalRoomsCleared < 11)
+        {
+            totalConcentration = 3;
+        }
+        if (totalRoomsCleared > 11 && totalRoomsCleared < 14)
+        {
+            totalConcentration = 4;
+        }
+        if (totalRoomsCleared > 14)
+        {
+            totalConcentration = 5;
+        }
+    }
+    private void predictTransformationOfTime()
+    {
+        if (totalMinutes > 10)
+        {
+            transformationOfTime = 1;
+        }
+        if (totalMinutes > 8 && totalMinutes < 10)
+        {
+            transformationOfTime = 2;
+        }
+        if (totalMinutes > 6 && totalMinutes < 8)
+        {
+            transformationOfTime = 3;
+        }
+        if (totalMinutes > 4 && totalMinutes < 6)
+        {
+            transformationOfTime = 4;
+        }
+        if (totalMinutes < 4)
+        {
+            transformationOfTime = 5;
         }
     }
 }

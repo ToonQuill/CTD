@@ -627,7 +627,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 1,
-            "switchTransformInto": 13
+            "switchTransformInto": 8
         },
         {
             "tileID": "Air",
@@ -737,7 +737,7 @@
             },
             "switchNumber": 0,
             "switchNumberEffect": 1,
-            "switchTransformInto": 7
+            "switchTransformInto": 8
         },
         {
             "tileID": "Air",
@@ -846,8 +846,8 @@
                 "y": 0.0
             },
             "switchNumber": 0,
-            "switchNumberEffect": 0,
-            "switchTransformInto": 0
+            "switchNumberEffect": 1,
+            "switchTransformInto": 5
         },
         {
             "tileID": "Desc5",
